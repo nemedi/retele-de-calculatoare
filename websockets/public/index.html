@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Talk</title>
+		<script src="index.js"></script>
+		<link rel="stylesheet" href="bootstrap.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Talk</h2>
+			<form action="javascript:">
+				<div class="form-group">
+					<label for="messages">Messages:</label>
+					<textarea id="messages" rows="12" class="form-control" readonly></textarea>
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label>
+					<input id="message" class="form-control" onKeyUp="send(event)">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
