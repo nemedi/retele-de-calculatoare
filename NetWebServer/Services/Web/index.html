@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Web Server Demo</title>
+    <script language="javascript" src="jquery.js" type="text/javascript"></script>
+    <script language="javascript" src="index.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#dcdcdc">
+    <table width="100%">
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>New Contact</legend>
+                    <table>
+                        <tr>
+                            <td nowrap>First Name</td>
+                            <td width="100%">
+                                <input id="FirstName0" style="width:100%"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td nowrap>Last Name</td>
+                            <td width="100%">
+                                <input id="LastName0" style="width:100%" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" width="100%" align="center">
+                                <input type="button" value="Add" onclick="Add()" style="100px"/>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Contacts</legend>
+                    <div id="Contacts"></div>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
