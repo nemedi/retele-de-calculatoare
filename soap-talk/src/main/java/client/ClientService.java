@@ -4,20 +4,20 @@ import java.net.InetAddress;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import javax.jws.WebService;
 import javax.xml.namespace.QName;
-import javax.xml.ws.Endpoint;
-import javax.xml.ws.EndpointReference;
-import javax.xml.ws.Service;
-import javax.xml.ws.soap.Addressing;
-import javax.xml.ws.soap.AddressingFeature;
 
-import com.sun.xml.internal.ws.api.addressing.OneWayFeature;
-import com.sun.xml.internal.ws.api.addressing.WSEndpointReference;
+import com.sun.xml.ws.api.addressing.OneWayFeature;
+import com.sun.xml.ws.api.addressing.WSEndpointReference;
 
 import common.ClientContract;
 import common.ServerContract;
 import common.Settings;
+import jakarta.jws.WebService;
+import jakarta.xml.ws.Endpoint;
+import jakarta.xml.ws.EndpointReference;
+import jakarta.xml.ws.Service;
+import jakarta.xml.ws.soap.Addressing;
+import jakarta.xml.ws.soap.AddressingFeature;
 
 @Addressing(required = true)
 @WebService(
@@ -44,8 +44,9 @@ public class ClientService implements ClientContract, AutoCloseable {
 			}
 		}
 		if (reference != null) {
-	        this.proxy = Service.create(new URL(String.format("http://%s:%d/talk?wsdl",
-	        		Settings.HOST, Settings.PORT)),
+			final URL url = new URL(String.format("http://%s:%d/talk?wsdl",
+	        		Settings.HOST, Settings.PORT));
+	        this.proxy = Service.create(url,
 	        		new QName("http://axway.com", "Service"))
 	        		.getPort(new QName("http://axway.com", "ServicePort"),
 	        				ServerContract.class,

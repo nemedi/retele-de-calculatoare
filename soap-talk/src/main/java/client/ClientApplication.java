@@ -35,8 +35,8 @@ public class ClientApplication extends Shell implements ClientContract {
 					display.sleep();
 				}
 			}
+			System.exit(0);
 		} catch (Exception e) {
-			e.printStackTrace();
 		}
 	}
 
@@ -81,7 +81,7 @@ public class ClientApplication extends Shell implements ClientContract {
 	 */
 	protected void createContents() {
 		setText("Talk");
-		setSize(450, 300);
+		setSize(500, 400);
 
 	}
 
@@ -92,10 +92,13 @@ public class ClientApplication extends Shell implements ClientContract {
 
 	@Override
 	public void onReceive(String message) {
-		getDisplay().asyncExec(() -> {
-			list.add(message);
-			list.redraw();
-		});		
+		try {
+			getDisplay().asyncExec(() -> {
+				list.add(message);
+				list.redraw();
+			});
+		} catch (Exception e) {
+		}
 	}
 
 }

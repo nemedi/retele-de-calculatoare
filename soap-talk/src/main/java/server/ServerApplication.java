@@ -3,9 +3,8 @@ package server;
 import java.net.InetAddress;
 import java.util.Scanner;
 
-import javax.xml.ws.Endpoint;
-
 import common.Settings;
+import jakarta.xml.ws.Endpoint;
 
 public class ServerApplication {
 
@@ -22,12 +21,12 @@ public class ServerApplication {
 					if (scanner.hasNextLine()
 							&& "exit".equalsIgnoreCase(
 									scanner.nextLine())) {
-						System.exit(0);
+						break;
 					}
 				}
+				System.exit(0);
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
 		}
 	}
 
