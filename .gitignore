@@ -1,0 +1,16 @@
+.settings/
+bin/
+target/
+.classpath
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+.metadata
+*.tmp
+*.launch
+.project
+.target
