@@ -1,0 +1,7 @@
+FROM java:8
+COPY . /var/www/java
+WORKDIR /var/www/java
+RUN javac client/Client.java
+ENV PORT 4444
+ENV GROUPS 231.0.0.0,232.0.0.0
+ENTRYPOINT ["/bin/sh", "-c", "java client.Client $PORT $GROUPS"]
