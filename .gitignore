@@ -1,7 +1,6 @@
 .settings/
 bin/
 target/
-.classpath
 *.class
 *.jar
 *.war
@@ -12,5 +11,4 @@ target/
 .metadata
 *.tmp
 *.launch
-.project
 .target

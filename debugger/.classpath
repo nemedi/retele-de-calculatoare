@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.osgi_3.12.50.v20170928-1321.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.osgi_3.12.50.v20170928-1321.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.core.commands_3.9.0.v20170530-1048.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.core.commands_3.9.0.v20170530-1048.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.equinox.registry_3.7.0.v20170222-1344.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.equinox.registry_3.7.0.v20170222-1344.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.core.runtime_3.13.0.v20170207-1030.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.core.runtime_3.13.0.v20170207-1030.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.text_3.6.100.v20170203-0814.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.text_3.6.100.v20170203-0814.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.106.1.v20170926-0519.jar" sourcepath="/Users/iulian/.m2/repository/org/eclipse/platform/org.eclipse.swt.cocoa.macosx.x86_64/3.106.1/org.eclipse.swt.cocoa.macosx.x86_64-3.106.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.jface_3.13.1.v20170810-0135.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.jface_3.13.1.v20170810-0135.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.jface.text_3.12.0.v20170523-1043.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.jface.text_3.12.0.v20170523-1043.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/com.ibm.icu_58.2.0.v20170418-1837.jar" sourcepath="/Users/iulian/.p2/pool/plugins/com.ibm.icu_58.2.0.v20170418-1837.jar"/>
+	<classpathentry kind="lib" path="/Users/iulian/.p2/pool/plugins/org.eclipse.ui.forms_3.7.101.v20170815-1446.jar" sourcepath="/Users/iulian/.p2/pool/plugins/org.eclipse.ui.forms_3.7.101.v20170815-1446.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-runtime-4.7.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
