@@ -1,0 +1,15 @@
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\bin\Debug\net6.0\DnsLookup.exe
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\bin\Debug\net6.0\DnsLookup.deps.json
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\bin\Debug\net6.0\DnsLookup.runtimeconfig.json
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\bin\Debug\net6.0\DnsLookup.dll
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\bin\Debug\net6.0\DnsLookup.pdb
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\DnsLookup.csproj.AssemblyReference.cache
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\DnsLookup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\DnsLookup.AssemblyInfoInputs.cache
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\DnsLookup.AssemblyInfo.cs
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\DnsLookup.csproj.CoreCompileInputs.cache
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\DnsLookup.dll
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\refint\DnsLookup.dll
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\DnsLookup.pdb
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\DnsLookup.genruntimeconfig.cache
+C:\Users\iilie\source\repos\DnsLookup\DnsLookup\obj\Debug\net6.0\ref\DnsLookup.dll
