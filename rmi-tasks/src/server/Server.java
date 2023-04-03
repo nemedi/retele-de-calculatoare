@@ -1,44 +1,32 @@
 package server;
 
-import java.net.MalformedURLException;
-import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.List;
-import java.util.ResourceBundle;
 import java.util.Scanner;
+
+import common.RegistryUtility;
+import common.Settings;
 
 public class Server {
 
 	public static void main(String[] args) {
 		try {
-			ResourceBundle bundle = ResourceBundle.getBundle("settings");
-			int port = Integer.parseInt(bundle.getString("port"));
-			String service = bundle.getString("service");
-			new TaskManager<List<String>, String>(getRegistry(port), service);
-			System.out.println("Server is running, type 'exit' to close it.");
+			Registry registry = RegistryUtility.getRegistry(Settings.PORT);
+			new TaskManager<List<String>, String>(registry, Settings.SERVICE);
+			System.out.println("Server is running, type 'exit' to stop it.");
 			try (Scanner scanner = new Scanner(System.in)) {
 				while (true) {
-					if (scanner.hasNextLine()) {
-						String command = scanner.nextLine();
-						if (command == null || "exit".equals(command)) {
-							break;
-						}
+					String commamd = scanner.nextLine();
+					if (commamd == null || "exit".equalsIgnoreCase(commamd)) {
+						break;
 					}
 				}
 			}
-		} catch (RemoteException | MalformedURLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			System.exit(0);
 		}
 	}
-	
-	private static Registry getRegistry(int port) throws RemoteException {
-		try {
-			return LocateRegistry.createRegistry(port);
-		} catch (RemoteException e) {
-			return LocateRegistry.getRegistry(port);
-		}
-	}
+
 }

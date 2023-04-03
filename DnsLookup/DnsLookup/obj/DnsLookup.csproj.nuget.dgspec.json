@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iilie\\source\\repos\\DnsLookup\\DnsLookup\\DnsLookup.csproj": {}
+    "\\\\Mac\\Home\\Documents\\Teaching\\RC\\retele-de-calculatoare\\DnsLookup\\DnsLookup\\DnsLookup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iilie\\source\\repos\\DnsLookup\\DnsLookup\\DnsLookup.csproj": {
+    "\\\\Mac\\Home\\Documents\\Teaching\\RC\\retele-de-calculatoare\\DnsLookup\\DnsLookup\\DnsLookup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iilie\\source\\repos\\DnsLookup\\DnsLookup\\DnsLookup.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\Teaching\\RC\\retele-de-calculatoare\\DnsLookup\\DnsLookup\\DnsLookup.csproj",
         "projectName": "DnsLookup",
-        "projectPath": "C:\\Users\\iilie\\source\\repos\\DnsLookup\\DnsLookup\\DnsLookup.csproj",
-        "packagesPath": "C:\\Users\\iilie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iilie\\source\\repos\\DnsLookup\\DnsLookup\\obj\\",
+        "projectPath": "\\\\Mac\\Home\\Documents\\Teaching\\RC\\retele-de-calculatoare\\DnsLookup\\DnsLookup\\DnsLookup.csproj",
+        "packagesPath": "C:\\Users\\iulian\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\Teaching\\RC\\retele-de-calculatoare\\DnsLookup\\DnsLookup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\iilie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iulian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\iilie\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
