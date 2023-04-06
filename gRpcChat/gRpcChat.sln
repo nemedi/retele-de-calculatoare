@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{619CB2C9-4C12-470D-BFAD-D9745572C018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{8DF212A5-6FFF-432E-A719-5B8405A545DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3266338F-DB47-4AE2-B0A0-3BC7B10447F4}"
+	ProjectSection(SolutionItems) = preProject
+		Chat.proto = Chat.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{619CB2C9-4C12-470D-BFAD-D9745572C018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619CB2C9-4C12-470D-BFAD-D9745572C018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619CB2C9-4C12-470D-BFAD-D9745572C018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619CB2C9-4C12-470D-BFAD-D9745572C018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF212A5-6FFF-432E-A719-5B8405A545DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF212A5-6FFF-432E-A719-5B8405A545DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF212A5-6FFF-432E-A719-5B8405A545DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF212A5-6FFF-432E-A719-5B8405A545DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1099BC11-A80C-42F6-87B0-169A54887EAA}
+	EndGlobalSection
+EndGlobal

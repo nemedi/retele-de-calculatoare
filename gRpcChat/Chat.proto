@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+service Chat {
+  rpc Join(stream Message) returns (stream Message);
+}
+message Message {
+	int32 type = 1;
+	repeated string arguments = 2;
+}
