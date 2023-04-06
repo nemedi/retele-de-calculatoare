@@ -43,9 +43,13 @@ namespace SendMail
 						Port = Settings.Default.Port,
 						EnableSsl = false,
 						DeliveryMethod = SmtpDeliveryMethod.Network,
-						Credentials = new NetworkCredential {
-							UserName = "admin@home.ro", Password = "admin"}
-					})
+						Credentials = new NetworkCredential
+						{
+							UserName = "admin@home.ro",
+							Password = "admin"
+						}
+					}
+					)
 					{
 						client.SendCompleted += (target, arguments) =>
 						{

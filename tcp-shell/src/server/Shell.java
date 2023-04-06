@@ -31,7 +31,7 @@ public class Shell implements Runnable {
 	}
 
 	public void run() {
-		writer.print("Welcome to Remote Shell, type command ot 'exit' to close it.\r\n");
+		writer.print("Welcome to Remote Shell, type command or 'exit' to close it.\r\n");
 		writer.flush();
 		while (!socket.isClosed()) {
 			try {
@@ -43,7 +43,7 @@ public class Shell implements Runnable {
 					writer.flush();
 				}
 			} catch (Exception e) {
-				writer.println(e.getLocalizedMessage());
+				writer.print(e.getLocalizedMessage() + "\r\n");
 				writer.flush();
 			}
 		}

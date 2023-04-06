@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\bin\Release\Common.dll
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\bin\Release\Common.pdb
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\bin\Release\Rpc.dll
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\bin\Release\Rpc.pdb
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.csproj.CopyComplete
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.dll
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.pdb

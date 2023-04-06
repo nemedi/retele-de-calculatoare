@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Server.exe.config
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Server.exe
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Server.pdb
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Common.dll
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Rpc.dll
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Common.pdb
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Rpc.pdb
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.csproj.CopyComplete
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.exe
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.pdb

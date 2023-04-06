@@ -4,7 +4,7 @@ import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class RegistryUtility {
+public final class RegistryUtility {
 
 	public static Registry getRegistry(int port) throws RemoteException {
 		try {
@@ -12,5 +12,9 @@ public class RegistryUtility {
 		} catch (RemoteException e) {
 			return LocateRegistry.getRegistry(port);
 		}
+	}
+	
+	public static Registry getRegistry(String host, int port) throws RemoteException {
+		return LocateRegistry.getRegistry(host, port);
 	}
 }

@@ -1,43 +1,36 @@
 package client;
 
-import java.net.MalformedURLException;
-import java.rmi.Naming;
-import java.rmi.NotBoundException;
-import java.rmi.RemoteException;
+import java.rmi.registry.Registry;
 import java.util.List;
-import java.util.ResourceBundle;
 import java.util.Scanner;
 
 import common.ITaskManager;
+import common.RegistryUtility;
+import common.Settings;
 
 public class Client {
 
 	@SuppressWarnings("unchecked")
-	public static void main(String[] args) throws NotBoundException {
+	public static void main(String[] args) {
 		try {
-			ResourceBundle bundle = ResourceBundle.getBundle("settings");
-			String host = bundle.getString("host");
-			int port = Integer.parseInt(bundle.getString("port"));
-			String service = bundle.getString("service");
+//			String endpoint = String.format("rmi://%s:%d/%s",
+//					Settings.HOST, Settings.PORT, Settings.SERVICE);
+			Registry registry = RegistryUtility.getRegistry(Settings.HOST, Settings.PORT);
 			ITaskManager<List<String>, String> taskManager =
-					(ITaskManager<List<String>, String>) Naming.lookup(String.format("rmi://%s:%d/%s",
-							host, port, service));
+					(ITaskManager<List<String>, String>) registry.lookup(Settings.SERVICE);
 			Task task = new Task();
-			System.out.println("Enter command to be executed on server or 'exit' to quit.");
 			try (Scanner scanner = new Scanner(System.in)) {
 				while (true) {
-					if (scanner.hasNextLine()) {
-						String command = scanner.nextLine();
-						if (command == null || "exit".equals(command)) {
-							break;
-						} else {
-							taskManager.execute(task, command)
-								.forEach(System.out::println);
-						}
+					String command = scanner.nextLine();
+					if (command == null || "exit".equalsIgnoreCase(command)) {
+						break;
+					} else {
+						taskManager.execute(task, command)
+							.forEach(System.out::println);
 					}
 				}
 			}
-		} catch (RemoteException | MalformedURLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

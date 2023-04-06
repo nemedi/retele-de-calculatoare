@@ -9,8 +9,9 @@ import java.util.List;
 
 import common.ITask;
 
-@SuppressWarnings("serial")
 public class Task implements ITask<List<String>, String> {
+
+	private static final long serialVersionUID = 1L;
 
 	@Override
 	public List<String> execute(String command) throws Exception {
@@ -19,13 +20,12 @@ public class Task implements ITask<List<String>, String> {
 			ProcessBuilder builder = new ProcessBuilder(segment.trim().split("\\s+"));
 			Process process = builder.start();
 			if (!lines.isEmpty()) {
-				PrintWriter writer = new PrintWriter(
-						process.getOutputStream());
+				PrintWriter writer = new PrintWriter(process.getOutputStream());
 				lines.forEach(line -> writer.println(line));
 				writer.close();
 			}
 			lines.clear();
-			BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+			final BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 			Thread thread = new Thread(() -> {
 				try {
 					while (true) {

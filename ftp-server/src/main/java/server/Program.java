@@ -10,7 +10,7 @@ import org.apache.ftpserver.listener.ListenerFactory;
 import org.apache.ftpserver.usermanager.ClearTextPasswordEncryptor;
 import org.apache.ftpserver.usermanager.PropertiesUserManagerFactory;
 
-public class FtpServerConsole {
+public class Program {
 
 	public static void main(String[] args) {
 		try {

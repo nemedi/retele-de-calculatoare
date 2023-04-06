@@ -1,0 +1,11 @@
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\bin\Debug\SendMail.exe.config
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\bin\Debug\SendMail.exe
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\bin\Debug\SendMail.pdb
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.MainForm.resources
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.Properties.Resources.resources
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.csproj.GenerateResource.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.exe
+\\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.pdb
