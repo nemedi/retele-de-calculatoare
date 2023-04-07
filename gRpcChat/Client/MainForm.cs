@@ -10,38 +10,20 @@ namespace Client
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            DataContext = new MainController();
+            DataContext = new MainController(this);
             nameTextBox.DataBindings.Add("Enabled", DataContext, "Inactive");
+            nameTextBox.DataBindings.Add("Text", DataContext, "Name");
             usersListBox.DataBindings.Add("DataSource", DataContext, "Users");
             messagesListBox.DataBindings.Add("DataSource", DataContext, "Messages");
-            button.DataBindings.Add("Text", DataContext, "ButtonText");
+            toggleLoginButton.DataBindings.Add("Text", DataContext, "ButtonText");
+            toggleLoginButton.DataBindings.Add("Command", DataContext, "ToggleLoginCommand", true);
             usersListBox.DataBindings.Add("Enabled", DataContext, "Active");
+            usersListBox.DataBindings.Add("SelectedItem", DataContext, "To", true);
             messagesListBox.DataBindings.Add("Enabled", DataContext, "Active");
             messageTextBox.DataBindings.Add("Enabled", DataContext, "Active");
-        }
-
-        private void messageTextBox_KeyUp(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter && DataContext is MainController controller)
-            {
-                controller.SendMessageCommand.Execute(null);
-            }
-        }
-
-        private void usersListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (DataContext is MainController controller)
-            {
-                controller.SelectedUserIndex = usersListBox.SelectedIndex;
-            }
-        }
-
-        private void button_Click(object sender, EventArgs e)
-        {
-            if (DataContext is MainController controller)
-            {
-                controller.ToggleLoginCommand.Execute(null);
-            }
+            messageTextBox.DataBindings.Add("Text", DataContext, "Message");
+            sendMessageButton.DataBindings.Add("Enabled", DataContext, "Active");
+            sendMessageButton.DataBindings.Add("Command", DataContext, "SendMessageCommand", true);
         }
     }
 }

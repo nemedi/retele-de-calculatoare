@@ -5,9 +5,10 @@ using System.Windows.Input;
 
 namespace Client
 {
-    internal class MainController : ObservableObject
+    internal class MainController : ObservableObject, IDisposable
     {
         Chat.ChatClient client;
+        Form form;
         private AsyncDuplexStreamingCall<Message, Message> call;
         bool active = false;
         public bool Active
@@ -22,7 +23,7 @@ namespace Client
         public string ButtonText => Active ? "Logout" : "Login";
         public bool Inactive => !Active;
         public BindingList<string> Users { get; } = new BindingList<string>();
-        public int SelectedUserIndex { get; set; }
+        public string To { get; set; } = string.Empty;
         public BindingList<string> Messages { get; } = new BindingList<string>();
         public string Name { get; set; } = string.Empty;
         string message = string.Empty;
@@ -35,10 +36,13 @@ namespace Client
         public ICommand ToggleLoginCommand { get; private set; }
         public ICommand SendMessageCommand { get; private set; }
 
-        public MainController()
+        public MainController(Form form)
         {
+            this.form = form;
             ToggleLoginCommand = new Command(OnToggleLogin);
             SendMessageCommand = new Command(OnSendMessage);
+
+
             var channel = GrpcChannel.ForAddress(Settings.Default.Endpoint);
             client = new Chat.ChatClient(channel);
             this.call = client.Join();
@@ -50,26 +54,29 @@ namespace Client
                     switch (response.Type)
                     {
                         case (int)MessageTypes.ACCEPT:
-                            OnAccept(response);
+                            form.Invoke(() => OnAccept(response));
                             break;
                         case (int)MessageTypes.DENY:
-                            OnDeny(response);
+                            form.Invoke(() => OnDeny(response));
                             break;
                         case (int)MessageTypes.ADD_USER:
-                            OnAddUser(response);
+                            form.Invoke(() => OnAddUser(response));
                             break;
                         case (int)MessageTypes.REMOVE_USER:
-                            OnRemoveUser(response);
+                            form.Invoke(() => OnRemoveUser(response));
                             break;
                         case (int)MessageTypes.EXIT:
-                            OnExit(response);
+                            form.Invoke(() => OnExit(response));
                             break;
                         case (int)MessageTypes.RECEIVE:
-                            OnReceive(response);
+                            form.Invoke(() => OnReceive(response));
                             break;
                     }
                 }
             });
+
+
+            this.form = form;
         }
 
         void OnAccept(Message response)
@@ -82,7 +89,8 @@ namespace Client
         void OnDeny(Message response)
         {
             Active = false;
-            MessageBox.Show("Failed to execute the request.",
+            MessageBox.Show(form,
+                "Failed to execute the request.",
                 "Error",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error); 
@@ -112,32 +120,49 @@ namespace Client
 
         void OnToggleLogin()
         {
-            var request = new Message();
+            
             if (Active)
             {
-                request.Type = (int)MessageTypes.LOGOUT;
-                call?.RequestStream.WriteAsync(request);
+                Login();
             }
             else
             {
-                request.Type = (int)MessageTypes.LOGIN;
-                request.Arguments.Add(Name);
-                call?.RequestStream.WriteAsync(request);
+                Logout();
             }
+        }
+
+        void Login()
+        {
+            var request = new Message();
+            request.Type = (int)MessageTypes.LOGOUT;
+            call?.RequestStream.WriteAsync(request);
+        }
+
+        void Logout()
+        {
+            var request = new Message();
+            request.Type = (int)MessageTypes.LOGIN;
+            request.Arguments.Add(Name);
+            call?.RequestStream.WriteAsync(request);
         }
 
         void OnSendMessage()
         {
-            if (Name.Length > 0
-                && Message.Length > 0
-                && SelectedUserIndex > -1
-                && SelectedUserIndex < Users.Count)
+            if (Message.Length > 0 && To.Length > 0)
             {
                 Message request = new Message { Type = (int)MessageTypes.SEND };
-                request.Arguments.Add(Users[SelectedUserIndex]);
+                request.Arguments.Add(To);
                 request.Arguments.Add(Message);
                 call.RequestStream.WriteAsync(request);
                 Message = string.Empty;
+            }
+        }
+
+        public void Dispose()
+        {
+            if (Active)
+            {
+                Logout();
             }
         }
     }

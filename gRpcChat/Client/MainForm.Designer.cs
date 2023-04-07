@@ -34,8 +34,9 @@
             usersListBox = new ListBox();
             messagesListBox = new ListBox();
             nameTextBox = new TextBox();
-            button = new Button();
+            toggleLoginButton = new Button();
             messageTextBox = new TextBox();
+            sendMessageButton = new Button();
             nameLabel = new Label();
             splitContainer = new SplitContainer();
             messageLabel = new Label();
@@ -80,7 +81,6 @@
             usersListBox.Name = "usersListBox";
             usersListBox.Size = new Size(328, 556);
             usersListBox.TabIndex = 0;
-            usersListBox.SelectedIndexChanged += usersListBox_SelectedIndexChanged;
             // 
             // messagesListBox
             // 
@@ -110,35 +110,44 @@
             nameTextBox.Size = new Size(838, 23);
             nameTextBox.TabIndex = 1;
             // 
-            // button
+            // toggleLoginButton
             // 
-            button.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button.Location = new Point(922, 8);
-            button.Name = "button";
-            button.Size = new Size(75, 23);
-            button.TabIndex = 2;
-            button.Text = "Login";
-            button.UseVisualStyleBackColor = true;
-            button.Click += button_Click;
+            toggleLoginButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            toggleLoginButton.Location = new Point(922, 8);
+            toggleLoginButton.Name = "toggleLoginButton";
+            toggleLoginButton.Size = new Size(75, 23);
+            toggleLoginButton.TabIndex = 2;
+            toggleLoginButton.Text = "Login";
+            toggleLoginButton.UseVisualStyleBackColor = true;
             // 
             // messageTextBox
             // 
             messageTextBox.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             messageTextBox.Location = new Point(78, 600);
             messageTextBox.Name = "messageTextBox";
-            messageTextBox.Size = new Size(919, 23);
+            messageTextBox.Size = new Size(838, 23);
             messageTextBox.TabIndex = 5;
-            messageTextBox.KeyUp += messageTextBox_KeyUp;
+            // 
+            // sendMessageButton
+            // 
+            sendMessageButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            sendMessageButton.Location = new Point(922, 600);
+            sendMessageButton.Name = "sendMessageButton";
+            sendMessageButton.Size = new Size(75, 23);
+            sendMessageButton.TabIndex = 6;
+            sendMessageButton.Text = "Send";
+            sendMessageButton.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1009, 631);
+            Controls.Add(sendMessageButton);
             Controls.Add(messageTextBox);
             Controls.Add(messageLabel);
             Controls.Add(splitContainer);
-            Controls.Add(button);
+            Controls.Add(toggleLoginButton);
             Controls.Add(nameTextBox);
             Controls.Add(nameLabel);
             Name = "MainForm";
@@ -160,5 +169,7 @@
         private TextBox messageTextBox;
         private ListBox usersListBox;
         private ListBox messagesListBox;
+        private Button toggleLoginButton;
+        private Button sendMessageButton;
     }
 }

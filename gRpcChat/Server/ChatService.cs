@@ -7,6 +7,8 @@ namespace Server
     {
         static IDictionary<string, IServerStreamWriter<Message>> writers =
             new ConcurrentDictionary<string, IServerStreamWriter<Message>>();
+
+
         public override async Task Join(IAsyncStreamReader<Message> requestStream,
             IServerStreamWriter<Message> responseStream, ServerCallContext context)
         {
