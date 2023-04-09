@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF029798-559E-4520-8573-A3E8BA4A4385}</ProjectGuid>
+    <ProjectGuid>{858FD4C8-138D-4565-ACE1-70C3FC31E42C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Client</RootNamespace>
     <AssemblyName>Client</AssemblyName>
@@ -48,12 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChatProxy.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="MainController.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ObservableObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
@@ -83,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{51e58c74-e327-4b0f-ac80-9cfa02c1fcfb}</Project>
+      <Project>{e03d25dc-815a-46fc-8849-a672a23b89fc}</Project>
       <Name>Common</Name>
     </ProjectReference>
   </ItemGroup>

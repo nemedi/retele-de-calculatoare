@@ -17,9 +17,11 @@ namespace Server
 			}
 			else
 			{
-				var names = new List<string>();
-				names.Add("*");
-				for (var enumeration = users.GetEnumerator(); enumeration.MoveNext();)
+                var names = new List<string>
+                {
+                    "*"
+                };
+                for (var enumeration = users.GetEnumerator(); enumeration.MoveNext();)
 				{
 					enumeration.Current.Value.OnAddUser(name);
 					names.Add(enumeration.Current.Key);
