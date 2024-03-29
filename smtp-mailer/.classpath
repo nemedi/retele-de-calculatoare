@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/com.ibm.icu_73.2.0.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/com.ibm.icu_73.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/javax.annotation_1.3.5.v20200909-1856.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/javax.annotation_1.3.5.v20200909-1856.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.core.commands_3.11.100.v20230708-0916.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.core.commands_3.11.100.v20230708-0916.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.core.runtime_3.29.0.v20230726-0617.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.core.runtime_3.29.0.v20230726-0617.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.e4.ui.di_1.5.100.v20230630-1554.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.e4.ui.di_1.5.100.v20230630-1554.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.equinox.common_3.18.100.v20230730-1117.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.equinox.common_3.18.100.v20230730-1117.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.equinox.registry_3.11.300.v20230801-1826.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.equinox.registry_3.11.300.v20230801-1826.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.jface_3.31.0.v20230821-1552.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.jface_3.31.0.v20230821-1552.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.jface.text_3.24.100.v20230727-0604.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.jface.text_3.24.100.v20230727-0604.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.osgi_3.18.500.v20230801-1826.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.osgi_3.18.500.v20230801-1826.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.124.100.v20230825-1346.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.124.100.v20230825-1346.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.text_3.13.100.v20230801-1334.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.text_3.13.100.v20230801-1334.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.ui.forms_3.13.0.v20230807-1354.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.ui.forms_3.13.0.v20230807-1354.jar"/>
+	<classpathentry kind="lib" path="D:/Work/ASE/Eclipse/plugins/org.eclipse.ui.workbench_3.130.0.v20230822-0911.jar" sourcepath="D:/Work/ASE/Eclipse/plugins/org.eclipse.ui.workbench_3.130.0.v20230822-0911.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

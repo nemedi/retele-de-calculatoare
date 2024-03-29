@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Mail;
 using System.Net;
@@ -19,7 +12,7 @@ namespace SendMail
 			InitializeComponent();
 		}
 
-		private void button_Click(object sender, EventArgs e)
+		private async void button_Click(object sender, EventArgs e)
 		{
 			try
 			{
@@ -39,16 +32,16 @@ namespace SendMail
 						message.To.Add(new MailAddress(to.Trim()));
 					}
 					using (var client = new SmtpClient {
-						Host = Settings.Default.Host,
-						Port = Settings.Default.Port,
-						EnableSsl = false,
-						DeliveryMethod = SmtpDeliveryMethod.Network,
-						Credentials = new NetworkCredential
-						{
-							UserName = "admin@home.ro",
-							Password = "admin"
+							Host = Settings.Default.Host,
+							Port = Settings.Default.Port,
+							EnableSsl = false,
+							DeliveryMethod = SmtpDeliveryMethod.Network,
+							Credentials = new NetworkCredential
+							{
+								UserName = Settings.Default.User,
+								Password = Settings.Default.Password
+							}
 						}
-					}
 					)
 					{
 						client.SendCompleted += (target, arguments) =>
@@ -63,7 +56,7 @@ namespace SendMail
 								else
 								{
 									MessageBox.Show(this, "Message was sent.", "Information",
-									MessageBoxButtons.OK, MessageBoxIcon.Information);
+										MessageBoxButtons.OK, MessageBoxIcon.Information);
 								}
 								
 							}
@@ -74,8 +67,7 @@ namespace SendMail
 							}
 							
 						};
-						client.SendAsync(message, null);
-						
+						await client.SendMailAsync(message);
 					}
 				}
 			} catch (Exception exception)

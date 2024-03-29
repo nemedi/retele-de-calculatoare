@@ -1,4 +1,4 @@
-var webSocket = new WebSocket(`ws${location.protocol.toLowerCase() === "https"? 's' : ''}://${location.host}/screen`);
+var webSocket = new WebSocket(`ws${location.protocol.toLowerCase().startsWith('https')? 's' : ''}://${location.host}/screen`);
 webSocket.binaryType = "arraybuffer";
 webSocket.onopen = function() {
 	setInterval('webSocket.send(document.body.clientWidth + "," + document.body.clientHeight)', 50);

@@ -3,10 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="Host" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">127.0.0.1</Value>
+      <Value Profile="(Default)">10.128.227.141</Value>
     </Setting>
     <Setting Name="Port" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">1025</Value>
+    </Setting>
+    <Setting Name="User" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">administrator@local.axway.com</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">szervusz</Value>
     </Setting>
   </Settings>
 </SettingsFile>
