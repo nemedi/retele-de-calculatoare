@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="ServerEndpoint" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">127.0.0.1:7070</Value>
+      <Value Profile="(Default)">127.0.0.1:6969</Value>
     </Setting>
     <Setting Name="ClientEndpoint" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">127.0.0.1:9090</Value>
+      <Value Profile="(Default)">127.0.0.1:9696</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -1,0 +1,460 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.AspNet.SignalR.Core/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin.Security": "2.1.0",
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.SignalR.SelfHost/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.Core": "2.4.3",
+          "Microsoft.Owin.SelfHost": "2.1.0"
+        }
+      },
+      "Microsoft.Owin/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Microsoft.Owin.Diagnostics/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.1.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Hosting/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.1.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.1.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "Microsoft.Owin.SelfHost/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.1.0",
+          "Microsoft.Owin.Diagnostics": "2.1.0",
+          "Microsoft.Owin.Host.HttpListener": "2.1.0",
+          "Microsoft.Owin.Hosting": "2.1.0",
+          "Owin": "1.0.0"
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.SignalR.Core/2.4.3": {
+      "sha512": "zxvv9HhsUa3nfyC7rIwFxHVcGffyQrjqNUO6pBKLyv3eFigkEy3N+6KbbSedzIyCfthglTbvU+m4sg8tawRlvA==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.core/2.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.dll",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.pdb",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.xml",
+        "microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512",
+        "microsoft.aspnet.signalr.core.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.AspNet.SignalR.SelfHost/2.4.3": {
+      "sha512": "lt76BC3f0k3MQUXx0QGZzJZsEkg+9Kk64CPrv+cnwunrYE0ne/DxTtE+gSZewtPkEhBFZwoRCbIrWf+9CEIQYQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.selfhost/2.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.aspnet.signalr.selfhost.2.4.3.nupkg.sha512",
+        "microsoft.aspnet.signalr.selfhost.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Owin/2.1.0": {
+      "sha512": "lk0kK64mlmcmtWX8YOYkZsnZKDoGEzMZhe8e1bcP+FFcgD4f2QfKwvu5Z8Bh8WS0VO7Rgk+DJ0hwW0k+S/UGMg==",
+      "type": "package",
+      "path": "microsoft.owin/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.XML",
+        "lib/net40/Microsoft.Owin.dll",
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.2.1.0.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Diagnostics/2.1.0": {
+      "sha512": "yJ8f0pbDGijL8eGUpNimwFLTauFEXgajMgtZy/UnHoFhxQ4udvFd3A+eHRgyzVbs/EOPtyzhiujFqhw/6r3aLw==",
+      "type": "package",
+      "path": "microsoft.owin.diagnostics/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.Diagnostics.XML",
+        "lib/net40/Microsoft.Owin.Diagnostics.dll",
+        "microsoft.owin.diagnostics.2.1.0.nupkg.sha512",
+        "microsoft.owin.diagnostics.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.HttpListener/2.1.0": {
+      "sha512": "ZAOApyU3hDXYigpdqBE2wgbOKSt+quEuUkQfC5cV3ZfuDepyzlMod2XRAxV4akJSXW854EeGh1HxYtCX8CBMAw==",
+      "type": "package",
+      "path": "microsoft.owin.host.httplistener/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net40/Microsoft.Owin.Host.HttpListener.xml",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.xml",
+        "microsoft.owin.host.httplistener.2.1.0.nupkg.sha512",
+        "microsoft.owin.host.httplistener.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Hosting/2.1.0": {
+      "sha512": "ZUUQeofZFImtNlfIsMmd1uo7YYYBPQYpapoC5h9EAPfoWN2DDfV2ad3aTnhKmSpik7a+6iKDyH4qPyxHQj5dQA==",
+      "type": "package",
+      "path": "microsoft.owin.hosting/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.Hosting.XML",
+        "lib/net40/Microsoft.Owin.Hosting.dll",
+        "lib/net45/Microsoft.Owin.Hosting.XML",
+        "lib/net45/Microsoft.Owin.Hosting.dll",
+        "microsoft.owin.hosting.2.1.0.nupkg.sha512",
+        "microsoft.owin.hosting.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security/2.1.0": {
+      "sha512": "4n1V0p+O6W1L0xHUM8Cjp2Y+MmmUkiCZv6PvRNIDCJD9zlerBJa2HECo9lUiWC+KuasQJ3QxB1FmipNBxdXXIQ==",
+      "type": "package",
+      "path": "microsoft.owin.security/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.XML",
+        "lib/net45/Microsoft.Owin.Security.dll",
+        "microsoft.owin.security.2.1.0.nupkg.sha512",
+        "microsoft.owin.security.nuspec"
+      ]
+    },
+    "Microsoft.Owin.SelfHost/2.1.0": {
+      "sha512": "GI1oR7JZSg8sov3Om/eW8HLjm8SQz+dIFncjEfhrMM0XPrqq/7bemJpXXWb2/nJx6d4kmgmY0lkooms5FkPjEw==",
+      "type": "package",
+      "path": "microsoft.owin.selfhost/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "microsoft.owin.selfhost.2.1.0.nupkg.sha512",
+        "microsoft.owin.selfhost.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/6.0.4": {
+      "sha512": "FyQLmEpjsCrEP+znauLDGAi+h6i9YnaMkITlfIoiM4RYyX3nki306bTHsr/0okiIvIc7BJhQTbOAIZVocccFUw==",
+      "type": "package",
+      "path": "newtonsoft.json/6.0.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.6.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.AspNet.SignalR.SelfHost >= 2.4.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\iilie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Server.csproj",
+      "projectName": "Server",
+      "projectPath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\iilie\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\iilie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\iilie\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.SelfHost": {
+            "target": "Package",
+            "version": "[2.4.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.SignalR.Core 2.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.SignalR.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Diagnostics 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Diagnostics",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Host.HttpListener 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Host.HttpListener",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Hosting 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Hosting",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Security 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Security",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 6.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Owin",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

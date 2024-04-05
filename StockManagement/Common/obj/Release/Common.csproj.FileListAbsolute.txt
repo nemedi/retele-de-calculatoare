@@ -7,3 +7,12 @@
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.csproj.CopyComplete
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.dll
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\bin\Release\Common.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\bin\Release\Common.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\bin\Release\Rpc.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\bin\Release\Rpc.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.csproj.AssemblyReference.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.csproj.Up2Date
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Release\Common.pdb

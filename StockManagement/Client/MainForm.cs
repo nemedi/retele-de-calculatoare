@@ -79,7 +79,7 @@ namespace Client
 			outerPanel.ResumeLayout();
 		}
 
-		private void CreateServiceHost()
+		private string CreateServiceHost()
 		{
 			var service = new Service(this);
 			var hostname = Settings.Default.ClientEndpoint.Split(':')[0];
@@ -88,15 +88,17 @@ namespace Client
 			{
 				try
 				{
-					host = new RpcHost(service, string.Format("{0}:{1}", hostname, port + i));
-					break;
+					string endpoint = string.Format("{0}:{1}", hostname, port + i);
+                    host = new RpcHost(service, endpoint);
+					return endpoint;
 				}
 				catch
 				{
 					continue;
 				}
 			}
-		}
+			return Settings.Default.ClientEndpoint;
+        }
 
 		private void LoadResources()
 		{
@@ -146,9 +148,9 @@ namespace Client
 			try
 			{
 				CreateControls();
-				CreateServiceHost();
+				string endpoint = CreateServiceHost();
 				proxy = new Proxy(Settings.Default.ServerEndpoint);
-				proxy.RegisterClient(Settings.Default.ClientEndpoint);
+				proxy.RegisterClient(endpoint);
 				LoadResources();
 			}
 			catch (Exception exception)

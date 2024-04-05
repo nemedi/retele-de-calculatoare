@@ -11,7 +11,6 @@ namespace Server
 
 		public void OnCategoryAdded(Category category)
 		{
-			
             Channel.OnCategoryAdded(category);
 		}
 

@@ -4,3 +4,9 @@
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Release\Rpc.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Release\Rpc.dll
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Release\Rpc.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\bin\Release\Rpc.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\bin\Release\Rpc.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Release\Rpc.csproj.AssemblyReference.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Release\Rpc.csproj.CoreCompileInputs.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Release\Rpc.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Release\Rpc.pdb

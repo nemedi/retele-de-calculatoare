@@ -1,0 +1,6 @@
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\bin\Debug\Common.dll
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\bin\Debug\Common.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.dll
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.pdb

@@ -22,7 +22,7 @@ namespace Client
         public string ButtonText => Active ? "Logout" : "Login";
         public bool Inactive => !Active;
         public BindingList<string> Users { get; } = new BindingList<string>();
-        public string To { get; set; } = string.Empty;
+        public string To { get; set; } = "*";
         public BindingList<string> Messages { get; } = new BindingList<string>();
         public string Name { get; set; } = string.Empty;
         string message = string.Empty;

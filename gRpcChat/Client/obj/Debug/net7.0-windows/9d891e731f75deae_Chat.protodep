@@ -1,0 +1,2 @@
+obj\Debug\net7.0-windows/Chat.cs \
+obj\Debug\net7.0-windows/ChatGrpc.cs: ../Chat.proto

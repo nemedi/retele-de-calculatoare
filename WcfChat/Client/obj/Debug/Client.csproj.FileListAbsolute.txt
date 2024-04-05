@@ -1,0 +1,13 @@
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Client.exe.config
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Client.exe
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Client.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Common.dll
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Common.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.MainForm.resources
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.Up2Date
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.exe
+D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.pdb

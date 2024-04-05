@@ -11,3 +11,15 @@
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.csproj.CopyComplete
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.exe
 \\Mac\Home\Documents\Teaching\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Server.exe.config
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Server.exe
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Server.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Common.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Rpc.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Common.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Release\Rpc.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.csproj.AssemblyReference.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.csproj.Up2Date
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.exe
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Release\Server.pdb
