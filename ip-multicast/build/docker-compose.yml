@@ -1,7 +1,7 @@
 version: "3"
 services:
-  ping_client:
-    container_name: ping_client
+  prime_number_client:
+    container_name: prime_number_client
     build:
       context: ../src
       dockerfile: ./client/Client.docker
@@ -11,8 +11,8 @@ services:
     environment:
       - PORT=4444
       - GROUPS=231.0.0.0,232.0.0.0
-  pong_server1:
-    container_name: pong_server1
+  prime_number_server1:
+    container_name: prime_number_server1
     build:
       context: ../src
       dockerfile: ./server/Server.docker
@@ -22,8 +22,8 @@ services:
     environment:
       - PORT=4444
       - GROUP=231.0.0.0
-  pong_server2:
-    container_name: pong_server2
+  prime_number_server2:
+    container_name: prime_number_server2
     build:
       context: ../src
       dockerfile: ./server/Server.docker
@@ -33,8 +33,8 @@ services:
     environment:
       - PORT=4444
       - GROUP=232.0.0.0
-  pong_server3:
-    container_name: pong_server3
+  prime_number_server3:
+    container_name: prime_number_server3
     build:
       context: ../src
       dockerfile: ./server/Server.docker
@@ -44,8 +44,8 @@ services:
     environment:
       - PORT=4444
       - GROUP=231.0.0.0
-  pong_server4:
-    container_name: pong_server4
+  prime_number_server4:
+    container_name: prime_number_server4
     build:
       context: ../src
       dockerfile: ./server/Server.docker

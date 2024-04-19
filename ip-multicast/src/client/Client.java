@@ -40,7 +40,7 @@ public class Client implements AutoCloseable {
 							groups.get(number % groups.size()),
 							port);
 					socket.send(packet);
-					Thread.sleep(100000);
+					Thread.sleep(10000);
 				} catch (Exception e) {
 				}
 			}

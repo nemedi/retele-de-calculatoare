@@ -1,4 +1,4 @@
-FROM java:8
+FROM openjdk:11
 COPY . /var/www/java
 WORKDIR /var/www/java
 RUN javac client/Client.java

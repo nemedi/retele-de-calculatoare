@@ -13,6 +13,7 @@ public class Server implements AutoCloseable {
 	
 	private volatile boolean running;
 	
+	@SuppressWarnings("deprecation")
 	private Server(int port, String address) throws IOException {
 		final MulticastSocket socket = new MulticastSocket(port);
 		final InetAddress group = InetAddress.getByName(address);
@@ -62,7 +63,9 @@ public class Server implements AutoCloseable {
 			if (isNotPrime[i] == false) {
 				found++;
 				for (int j = 2; j * i <= n; j++)
-					isNotPrime[j * i] = true;
+					if (j * i < isNotPrime.length) {
+						isNotPrime[j * i] = true;
+					}
 			}
 		int[] numbers = new int[found];
 		int k = 0;
