@@ -8,11 +8,11 @@
     <Setting Name="LogPath" Type="System.String" Scope="Application">
       <Value Profile="(Default)">log.txt</Value>
     </Setting>
-    <Setting Name="ServerEndpoint" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">127.0.0.1:6969</Value>
-    </Setting>
     <Setting Name="ClientEndpoint" Type="System.String" Scope="Application">
       <Value Profile="(Default)">127.0.0.1:9696</Value>
+    </Setting>
+    <Setting Name="ServerEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">127.0.0.1:7979</Value>
     </Setting>
   </Settings>
 </SettingsFile>

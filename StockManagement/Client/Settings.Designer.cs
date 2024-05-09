@@ -25,7 +25,7 @@ namespace Client {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1:6969")]
+        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1:7979")]
         public string ServerEndpoint {
             get {
                 return ((string)(this["ServerEndpoint"]));

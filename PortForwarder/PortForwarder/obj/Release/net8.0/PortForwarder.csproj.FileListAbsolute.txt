@@ -1,0 +1,17 @@
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\bin\Release\net8.0\PortForwarder.exe
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\bin\Release\net8.0\PortForwarder.deps.json
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\bin\Release\net8.0\PortForwarder.runtimeconfig.json
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\bin\Release\net8.0\PortForwarder.dll
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\bin\Release\net8.0\PortForwarder.pdb
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\bin\Release\net8.0\Open.Nat.dll
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForwarder.csproj.AssemblyReference.cache
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForwarder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForwarder.AssemblyInfoInputs.cache
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForwarder.AssemblyInfo.cs
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForwarder.csproj.CoreCompileInputs.cache
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForw.1B3ACD0E.Up2Date
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForwarder.dll
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\refint\PortForwarder.dll
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForwarder.pdb
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\PortForwarder.genruntimeconfig.cache
+C:\Users\iilie\source\repos\PortForwarder\PortForwarder\obj\Release\net8.0\ref\PortForwarder.dll

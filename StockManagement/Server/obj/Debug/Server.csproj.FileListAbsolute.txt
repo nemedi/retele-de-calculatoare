@@ -1,0 +1,12 @@
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Debug\Server.exe.config
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Debug\Server.exe
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Debug\Server.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Debug\Common.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Debug\Rpc.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Debug\Common.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\bin\Debug\Rpc.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Debug\Server.csproj.Up2Date
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Debug\Server.exe
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Server\obj\Debug\Server.pdb

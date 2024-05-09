@@ -43,19 +43,19 @@ namespace Server {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1:6969")]
-        public string ServerEndpoint {
+        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1:9696")]
+        public string ClientEndpoint {
             get {
-                return ((string)(this["ServerEndpoint"]));
+                return ((string)(this["ClientEndpoint"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1:9696")]
-        public string ClientEndpoint {
+        [global::System.Configuration.DefaultSettingValueAttribute("127.0.0.1:7979")]
+        public string ServerEndpoint {
             get {
-                return ((string)(this["ClientEndpoint"]));
+                return ((string)(this["ServerEndpoint"]));
             }
         }
     }

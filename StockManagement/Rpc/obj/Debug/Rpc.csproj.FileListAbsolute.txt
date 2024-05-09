@@ -1,0 +1,6 @@
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\bin\Debug\Rpc.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\bin\Debug\Rpc.pdb
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.csproj.AssemblyReference.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.csproj.CoreCompileInputs.cache
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.dll
+D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.pdb
