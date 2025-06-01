@@ -1,0 +1,15 @@
+{
+  "name": "azure-function-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/functions/getPrimeNumbers.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "body-parser": "^2.2.0",
+    "lambda-local": "^2.2.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1692.0"
+  }
+}
