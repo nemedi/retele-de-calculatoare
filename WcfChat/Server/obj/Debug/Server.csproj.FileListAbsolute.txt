@@ -8,3 +8,13 @@ D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.csproj.Cor
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.csproj.Up2Date
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.exe
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\bin\Debug\Server.exe.config
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\bin\Debug\Server.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\bin\Debug\Server.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\bin\Debug\Common.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\bin\Debug\Common.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.csproj.Up2Date
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Server\obj\Debug\Server.pdb

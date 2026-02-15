@@ -4,3 +4,9 @@ D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.csproj.A
 D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.csproj.CoreCompileInputs.cache
 D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.dll
 D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\bin\Debug\Rpc.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\bin\Debug\Rpc.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.csproj.AssemblyReference.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Rpc\obj\Debug\Rpc.pdb

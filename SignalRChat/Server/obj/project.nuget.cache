@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y6rBn8lR/qtiY9hhBVDOrLIMqkLN7AEsHjFdagKZ2X8S5yIrXywquBHT/FBCXopqBOgU5gdeWQYMn5Rbu/HWyA==",
+  "dgSpecHash": "Q83nYhfqJRQ=",
   "success": true,
-  "projectFilePath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.3\\microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.aspnet.signalr.selfhost\\2.4.3\\microsoft.aspnet.signalr.selfhost.2.4.3.nupkg.sha512",
@@ -13,7 +13,11 @@
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.owin.security\\2.1.0\\microsoft.owin.security.2.1.0.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.owin.selfhost\\2.1.0\\microsoft.owin.selfhost.2.1.0.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\newtonsoft.json\\6.0.4\\newtonsoft.json.6.0.4.nupkg.sha512",
-    "C:\\Users\\iilie\\.nuget\\packages\\owin\\1.0.0\\owin.1.0.0.nupkg.sha512"
+    "C:\\Users\\iilie\\.nuget\\packages\\owin\\1.0.0\\owin.1.0.0.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
   "logs": [
     {

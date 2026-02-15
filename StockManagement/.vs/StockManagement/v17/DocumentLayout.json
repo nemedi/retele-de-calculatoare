@@ -1,50 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\",
+  "WorkspaceRootPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{885B6C07-89EA-4BFE-ABC2-55C7829646AC}|Common\\Common.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\common\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885B6C07-89EA-4BFE-ABC2-55C7829646AC}|Common\\Common.csproj|solutionrelative:common\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6C07-89EA-4BFE-ABC2-55C7829646AC}|Common\\Common.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\common\\iserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885B6C07-89EA-4BFE-ABC2-55C7829646AC}|Common\\Common.csproj|solutionrelative:common\\iserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5261473-5614-4561-BB2B-561C7E375CCA}|Client\\Client.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{E5261473-5614-4561-BB2B-561C7E375CCA}|Client\\Client.csproj|solutionrelative:client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8878349B-BBE3-41AD-8215-5BE3486BCB7A}|Server\\Server.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\server\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{8878349B-BBE3-41AD-8215-5BE3486BCB7A}|Server\\Server.csproj|solutionrelative:server\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8878349B-BBE3-41AD-8215-5BE3486BCB7A}|Server\\Server.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8878349B-BBE3-41AD-8215-5BE3486BCB7A}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8878349B-BBE3-41AD-8215-5BE3486BCB7A}|Server\\Server.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{8878349B-BBE3-41AD-8215-5BE3486BCB7A}|Server\\Server.csproj|solutionrelative:server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\rpc\\rpcchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\rpc\\rpcchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|solutionrelative:rpc\\rpcchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\rpc\\rpcproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\rpc\\rpcproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|solutionrelative:rpc\\rpcproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\rpc\\rpcresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|solutionrelative:rpc\\rpcresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8878349B-BBE3-41AD-8215-5BE3486BCB7A}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8878349B-BBE3-41AD-8215-5BE3486BCB7A}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\rpc\\rpcresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|solutionrelative:rpc\\rpcresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\rpc\\rpcrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|solutionrelative:rpc\\rpcrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\rpc\\rpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF34C37-A9EF-4AEC-9975-2BA0D8B48E40}|Rpc\\Rpc.csproj|solutionrelative:rpc\\rpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,142 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IClientService.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Common\\IClientService.cs",
-              "RelativeDocumentMoniker": "Common\\IClientService.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Common\\IClientService.cs",
-              "RelativeToolTip": "Common\\IClientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAANAAAA",
+              "Title": "RpcChannel.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcChannel.cs",
+              "RelativeDocumentMoniker": "Rpc\\RpcChannel.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcChannel.cs",
+              "RelativeToolTip": "Rpc\\RpcChannel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvxYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:11:52.747Z",
+              "WhenOpened": "2025-04-07T05:35:27.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IServerService.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Common\\IServerService.cs",
-              "RelativeDocumentMoniker": "Common\\IServerService.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Common\\IServerService.cs",
-              "RelativeToolTip": "Common\\IServerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RpcProxy.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcProxy.cs",
+              "RelativeDocumentMoniker": "Rpc\\RpcProxy.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcProxy.cs",
+              "RelativeToolTip": "Rpc\\RpcProxy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:11:39.97Z",
+              "WhenOpened": "2025-04-07T07:05:08.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Server\\Settings.settings",
-              "RelativeDocumentMoniker": "Server\\Settings.settings",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Server\\Settings.settings",
-              "RelativeToolTip": "Server\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-04-05T14:06:43.121Z",
+              "Title": "RpcService.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcService.cs",
+              "RelativeDocumentMoniker": "Rpc\\RpcService.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcService.cs",
+              "RelativeToolTip": "Rpc\\RpcService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:03:15.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Client\\Settings.settings",
-              "RelativeDocumentMoniker": "Client\\Settings.settings",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Client\\Settings.settings",
-              "RelativeToolTip": "Client\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-04-05T14:06:22.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Server\\App.config",
-              "RelativeDocumentMoniker": "Server\\App.config",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Server\\App.config",
-              "RelativeToolTip": "Server\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-05T14:04:15.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Server\\Program.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Server\\Program.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxYAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:04:13.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RpcChannel.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcChannel.cs",
-              "RelativeDocumentMoniker": "Rpc\\RpcChannel.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcChannel.cs",
-              "RelativeToolTip": "Rpc\\RpcChannel.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAowBsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:02:39.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RpcProxy.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcProxy.cs",
-              "RelativeDocumentMoniker": "Rpc\\RpcProxy.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcProxy.cs",
-              "RelativeToolTip": "Rpc\\RpcProxy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:02:23.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RpcResult.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcResult.cs",
-              "RelativeDocumentMoniker": "Rpc\\RpcResult.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcResult.cs",
-              "RelativeToolTip": "Rpc\\RpcResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:02:10.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RpcResponse.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcResponse.cs",
-              "RelativeDocumentMoniker": "Rpc\\RpcResponse.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcResponse.cs",
-              "RelativeToolTip": "Rpc\\RpcResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:01:54.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RpcRequest.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcRequest.cs",
-              "RelativeDocumentMoniker": "Rpc\\RpcRequest.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Rpc\\RpcRequest.cs",
-              "RelativeToolTip": "Rpc\\RpcRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:01:39.367Z",
+              "WhenOpened": "2025-04-07T05:35:36.715Z",
               "EditorCaption": ""
             }
           ]

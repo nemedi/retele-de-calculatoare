@@ -7,3 +7,12 @@ D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.cs
 D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.csproj.Up2Date
 D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.dll
 D:\Work\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\bin\Debug\Common.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\bin\Debug\Common.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\bin\Debug\Rpc.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\bin\Debug\Rpc.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.csproj.Up2Date
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\StockManagement\Common\obj\Debug\Common.pdb

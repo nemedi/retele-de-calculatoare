@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CCfX91NHgy0Zxs6sd0YpIkFogj5uI6fW/jxGzd5Alo2onF77dnZHSgyYrMyFiD7UlaI0M/2g37CtTcEzxW8pVg==",
+  "dgSpecHash": "mI05zamkfYU=",
   "success": true,
-  "projectFilePath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iilie\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\grpc.aspnetcore\\2.62.0\\grpc.aspnetcore.2.62.0.nupkg.sha512",
@@ -21,7 +21,11 @@
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\iilie\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\iilie\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

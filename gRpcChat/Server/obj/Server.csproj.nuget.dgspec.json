@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj": {}
+    "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj": {
+    "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
+        "projectPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\iilie\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\obj\\",
+        "outputPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\iilie\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,6 +80,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

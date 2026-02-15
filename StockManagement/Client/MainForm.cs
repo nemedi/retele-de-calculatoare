@@ -12,7 +12,7 @@ namespace Client
 	public partial class MainForm : Form, IClientService
 	{
 		private static MainForm instance;
-		private RpcHost host;
+		private RpcService host;
 		private Proxy proxy;
 		private IDictionary<int, Resource> resources;
 		private IDictionary<int, TreeNode> nodes;
@@ -89,7 +89,7 @@ namespace Client
 				try
 				{
 					string endpoint = string.Format("{0}:{1}", hostname, port + i);
-                    host = new RpcHost(service, endpoint);
+                    host = new RpcService(service, endpoint);
 					return endpoint;
 				}
 				catch

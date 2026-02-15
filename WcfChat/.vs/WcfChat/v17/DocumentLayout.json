@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\",
+  "WorkspaceRootPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\wcfchat\\server\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|solutionrelative:server\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858FD4C8-138D-4565-ACE1-70C3FC31E42C}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\wcfchat\\client\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858FD4C8-138D-4565-ACE1-70C3FC31E42C}|Client\\Client.csproj|solutionrelative:client\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858FD4C8-138D-4565-ACE1-70C3FC31E42C}|Client\\Client.csproj|D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{858FD4C8-138D-4565-ACE1-70C3FC31E42C}|Client\\Client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|solutionrelative:server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\wcfchat\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E03D25DC-815A-46FC-8849-A672A23B89FC}|Common\\Common.csproj|d:\\work\\ase\\rc\\retele-de-calculatoare\\wcfchat\\common\\ichatcallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E03D25DC-815A-46FC-8849-A672A23B89FC}|Common\\Common.csproj|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\common\\ichatcallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E03D25DC-815A-46FC-8849-A672A23B89FC}|Common\\Common.csproj|solutionrelative:common\\ichatcallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E03D25DC-815A-46FC-8849-A672A23B89FC}|Common\\Common.csproj|D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\common\\ichat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\wcfchat\\server\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|solutionrelative:server\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858FD4C8-138D-4565-ACE1-70C3FC31E42C}|Client\\Client.csproj|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{858FD4C8-138D-4565-ACE1-70C3FC31E42C}|Client\\Client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|solutionrelative:server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808E2D3D-ABD9-492B-9862-63E7F620791F}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E03D25DC-815A-46FC-8849-A672A23B89FC}|Common\\Common.csproj|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\common\\ichat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E03D25DC-815A-46FC-8849-A672A23B89FC}|Common\\Common.csproj|solutionrelative:common\\ichat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,82 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\Program.cs",
-              "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\Program.cs",
-              "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Client\\MainController.cs",
+              "RelativeDocumentMoniker": "Client\\MainController.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Client\\MainController.cs",
+              "RelativeToolTip": "Client\\MainController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIA1wCUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:45:06.858Z",
+              "WhenOpened": "2025-04-04T13:49:30.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IChatCallback.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Common\\IChatCallback.cs",
-              "RelativeDocumentMoniker": "Common\\IChatCallback.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Common\\IChatCallback.cs",
-              "RelativeToolTip": "Common\\IChatCallback.cs",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T14:45:06.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IChatCallback.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Common\\IChatCallback.cs",
+              "RelativeDocumentMoniker": "Common\\IChatCallback.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Common\\IChatCallback.cs",
+              "RelativeToolTip": "Common\\IChatCallback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T14:44:58.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChatService.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\ChatService.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\ChatService.cs",
               "RelativeDocumentMoniker": "Server\\ChatService.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\ChatService.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\ChatService.cs",
               "RelativeToolTip": "Server\\ChatService.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAuwDQAAABKAAAA",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwDQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T06:02:30.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IChat.cs",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Common\\IChat.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Common\\IChat.cs",
               "RelativeDocumentMoniker": "Common\\IChat.cs",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Common\\IChat.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Common\\IChat.cs",
               "RelativeToolTip": "Common\\IChat.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T06:02:20.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T06:02:20.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\App.config",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\App.config",
               "RelativeDocumentMoniker": "Server\\App.config",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\App.config",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Server\\App.config",
               "RelativeToolTip": "Server\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAvAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-04-05T06:00:27.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Client\\App.config",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Client\\App.config",
               "RelativeDocumentMoniker": "Client\\App.config",
-              "ToolTip": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Client\\App.config",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\WcfChat\\Client\\App.config",
               "RelativeToolTip": "Client\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwEAAAAPAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-04-05T06:00:21.687Z",
               "EditorCaption": ""

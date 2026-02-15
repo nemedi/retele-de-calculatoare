@@ -4,3 +4,9 @@ D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.csproj.Ass
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.dll
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Common\bin\Debug\Common.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Common\bin\Debug\Common.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Common\obj\Debug\Common.pdb

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flights>
+	<flight>
+		<number>RO6423</number>
+		<airline>Tarom</airline>
+		<aircraft>Boeing 737-82R</aircraft>
+		<origin>Bucharest Henri Coanda International Airport</origin>
+		<destination>Sharm el-Sheikh International Airport</destination>
+		<status>Estimated- 19:29</status>
+	</flight>
+	<flight>
+		<number>RO237</number>
+		<airline>Tarom</airline>
+		<aircraft>ATR 72-600</aircraft>
+		<origin>Bucharest Henri Coanda International Airport</origin>
+		<destination>Budapest Ferenc Liszt International Airport</destination>
+		<status>Estimated- 17:55</status>
+	</flight>
+	<flight>
+		<number>RO373</number>
+		<airline>Tarom</airline>
+		<aircraft>Boeing 737-8H6</aircraft>
+		<origin>Bucharest Henri Coanda International Airport</origin>
+		<destination>Brussels Airport</destination>
+		<status>Delayed 18:42</status>
+	</flight>
+	<flight>
+		<number>RO363</number>
+		<airline>Tarom</airline>
+		<aircraft>Boeing 737-8H6</aircraft>
+		<origin>Bucharest Henri Coanda International Airport</origin>
+		<destination>Amsterdam Schiphol Airport</destination>
+		<status>Estimated- 18:57</status>
+	</flight>
+	<flight>
+		<number>RO384</number>
+		<airline>Tarom</airline>
+		<aircraft>Boeing 737-78J</aircraft>
+		<origin>Paris Charles de Gaulle Airport</origin>
+		<destination>Bucharest Henri Coanda International Airport
+		</destination>
+		<status>Estimated- 20:01</status>
+	</flight>
+	<flight>
+		<number>RO627</number>
+		<airline>Tarom</airline>
+		<aircraft>ATR 72-600</aircraft>
+		<origin>Bucharest Henri Coanda International Airport</origin>
+		<destination>Oradea International Airport</destination>
+		<status>Estimated- 18:57</status>
+	</flight>
+	<flight>
+		<number>RO707</number>
+		<airline>Tarom</airline>
+		<aircraft>ATR 72-600</aircraft>
+		<origin>Bucharest Henri Coanda International Airport</origin>
+		<destination>Iasi International Airport</destination>
+		<status>Estimated- 19:04</status>
+	</flight>
+	<flight>
+		<number>RO608</number>
+		<airline>Tarom</airline>
+		<aircraft>ATR 72-600</aircraft>
+		<origin>Timisoara Traian Vuia International Airport</origin>
+		<destination>Bucharest Henri Coanda International Airport
+		</destination>
+		<status>Scheduled</status>
+	</flight>
+</flights>

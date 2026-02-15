@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\messagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\messagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\messagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\messagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MainForm.cs",
+              "RelativeDocumentMoniker": "Client\\MainForm.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MainForm.cs",
+              "RelativeToolTip": "Client\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:45:43.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MainController.cs",
+              "RelativeDocumentMoniker": "Client\\MainController.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MainController.cs",
+              "RelativeToolTip": "Client\\MainController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAIgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:45:20.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageTypes.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MessageTypes.cs",
+              "RelativeDocumentMoniker": "Client\\MessageTypes.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MessageTypes.cs",
+              "RelativeToolTip": "Client\\MessageTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:45:15.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MainForm.cs",
+              "RelativeDocumentMoniker": "Client\\MainForm.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MainForm.cs [Design]",
+              "RelativeToolTip": "Client\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:42:55.245Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Command.cs",
+              "RelativeDocumentMoniker": "Client\\Command.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Command.cs",
+              "RelativeToolTip": "Client\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:42:47.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Server\\ChatHub.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\ChatHub.cs",
+              "RelativeToolTip": "Server\\ChatHub.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:42:00.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MessageTypes.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\MessageTypes.cs",
+              "RelativeDocumentMoniker": "Server\\MessageTypes.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\MessageTypes.cs",
+              "RelativeToolTip": "Server\\MessageTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:41:56.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:41:39.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:41:30.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\App.config",
+              "RelativeDocumentMoniker": "Client\\App.config",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\App.config",
+              "RelativeToolTip": "Client\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-04T13:41:14.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Settings.settings",
+              "RelativeDocumentMoniker": "Client\\Settings.settings",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Settings.settings",
+              "RelativeToolTip": "Client\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-04-04T13:41:07.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

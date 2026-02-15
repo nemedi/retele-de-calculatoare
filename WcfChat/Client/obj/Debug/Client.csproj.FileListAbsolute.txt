@@ -11,3 +11,16 @@ D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.Cor
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.Up2Date
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.exe
 D:\Work\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Client.exe.config
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Client.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Client.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Common.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\bin\Debug\Common.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.MainForm.resources
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.Up2Date
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.pdb

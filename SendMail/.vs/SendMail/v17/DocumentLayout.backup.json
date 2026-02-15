@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SendMail\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED889D-0FB6-477A-81AD-C5C077EC8796}|SendMail\\SendMail.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\sendmail\\sendmail\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FED889D-0FB6-477A-81AD-C5C077EC8796}|SendMail\\SendMail.csproj|solutionrelative:sendmail\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED889D-0FB6-477A-81AD-C5C077EC8796}|SendMail\\SendMail.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\sendmail\\sendmail\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{1FED889D-0FB6-477A-81AD-C5C077EC8796}|SendMail\\SendMail.csproj|solutionrelative:sendmail\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED889D-0FB6-477A-81AD-C5C077EC8796}|SendMail\\SendMail.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\sendmail\\sendmail\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FED889D-0FB6-477A-81AD-C5C077EC8796}|SendMail\\SendMail.csproj|solutionrelative:sendmail\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SendMail\\SendMail\\Settings.settings",
+              "RelativeDocumentMoniker": "SendMail\\Settings.settings",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SendMail\\SendMail\\Settings.settings",
+              "RelativeToolTip": "SendMail\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-03-31T05:08:22.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SendMail\\SendMail\\MainForm.cs",
+              "RelativeDocumentMoniker": "SendMail\\MainForm.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SendMail\\SendMail\\MainForm.cs",
+              "RelativeToolTip": "SendMail\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:05:10.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SendMail\\SendMail\\MainForm.cs",
+              "RelativeDocumentMoniker": "SendMail\\MainForm.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SendMail\\SendMail\\MainForm.cs [Design]",
+              "RelativeToolTip": "SendMail\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:47:16.517Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

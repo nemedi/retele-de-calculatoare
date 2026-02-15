@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5xRm3AmsllFGalfOJWeCTMZITlNLGL7WRt5vxTMbcMims9WLEiUwcUwv1MFUilIvfbQqEjidmQz2Hrsur51ULA==",
+  "dgSpecHash": "plTy3uCLIUs=",
   "success": true,
-  "projectFilePath": "D:\\Work\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.4\\microsoft.aspnetcore.connections.abstractions.7.0.4.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\7.0.4\\microsoft.aspnetcore.http.connections.client.7.0.4.nupkg.sha512",
@@ -19,7 +19,11 @@
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\iilie\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
-    "C:\\Users\\iilie\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+    "C:\\Users\\iilie\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

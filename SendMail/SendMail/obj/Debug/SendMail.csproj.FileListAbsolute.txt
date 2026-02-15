@@ -19,3 +19,13 @@ D:\Work\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.cspro
 D:\Work\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.csproj.CoreCompileInputs.cache
 D:\Work\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.exe
 D:\Work\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\bin\Debug\SendMail.exe.config
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\bin\Debug\SendMail.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\bin\Debug\SendMail.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.csproj.AssemblyReference.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.MainForm.resources
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.Properties.Resources.resources
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.csproj.GenerateResource.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Debug\SendMail.pdb

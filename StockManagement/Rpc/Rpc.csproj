@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RpcHost.cs" />
+    <Compile Include="RpcService.cs" />
     <Compile Include="RpcProxy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RpcRequest.cs" />
