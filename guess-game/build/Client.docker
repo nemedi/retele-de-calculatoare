@@ -1,0 +1,13 @@
+FROM azul/zulu-openjdk:21
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends net-tools mc && \
+    rm -rf /var/lib/apt/lists/*
+WORKDIR /var/guess-client
+RUN mkdir -p demo
+COPY src/demo/Client.java demo/Client.java
+COPY src/demo/Transport.java demo/Transport.java
+RUN javac demo/*.java
+RUN rm -f demo/*.java
+ENV HOST=guess_server
+ENV PORT=6969
+ENTRYPOINT ["bash", "-c", "java demo.Client $HOST $PORT"]

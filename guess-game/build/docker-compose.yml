@@ -1,0 +1,75 @@
+version: "3.9"
+services:
+  guess_server:
+    container_name: guess_server
+    ports:
+      - "6969:6969"
+    environment:
+      PORT: 6969
+    build:
+      context: ..
+      args:
+        PORT: 6969
+      dockerfile: build/Server.docker
+    image: guess_server:latest
+    hostname: guess_server
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+  guess_client1:
+    container_name: guess_client1
+    environment:
+      HOST: guess_server
+      PORT: 6969
+    build:
+      context: ..
+      args:
+        HOST: guess_server
+        PORT: 6969
+      dockerfile: build/Client.docker
+    image: guess_client:latest
+    hostname: guess_client1
+    stdin_open: true
+    tty: true
+    depends_on:
+      - guess_server
+    restart: unless-stopped
+
+  guess_client2:
+    container_name: guess_client2
+    environment:
+      HOST: guess_server
+      PORT: 6969
+    build:
+      context: ..
+      args:
+        HOST: guess_server
+        PORT: 6969
+      dockerfile: build/Client.docker
+    image: guess_client:latest
+    hostname: guess_client2
+    stdin_open: true
+    tty: true
+    depends_on:
+      - guess_server
+    restart: unless-stopped
+
+  guess_client3:
+    container_name: guess_client3
+    environment:
+      HOST: guess_server
+      PORT: 6969
+    build:
+      context: ..
+      args:
+        HOST: guess_server
+        PORT: 6969
+      dockerfile: build/Client.docker
+    image: guess_client:latest
+    hostname: guess_client3
+    stdin_open: true
+    tty: true
+    depends_on:
+      - guess_server
+    restart: unless-stopped
