@@ -13,6 +13,12 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicReference;
 
+import static demo.Message.LOGIN;
+import static demo.Message.LOGOUT;
+import static demo.Message.ATTEMPT;
+import static demo.Message.guess;
+import static demo.Message.win;
+
 public class Server implements AutoCloseable {
 
 	private static final int LENGTH = 4;
@@ -75,16 +81,15 @@ public class Server implements AutoCloseable {
 						try {
 							while (socket != null && !socket.isClosed()) {
 								try {
-									String data = Transport.receive(socket);
-									String[] arguments = data.split(":");
-									switch (arguments[0]) {
-									case "login":
-										players.put(socket, arguments[1].trim());
+									Message message = Transport.receive(socket);
+									switch (message.getType()) {
+									case LOGIN:
+										players.put(socket, message.getPayload(String.class));
 										break;
-									case "attempt":
+									case ATTEMPT:
 										if (players.containsKey(socket) && !players.get(socket).isEmpty()) {
-											String guess = arguments[1].trim();
-											int cd = 0, cp = 0;
+											String guess = message.getPayload(String.class);
+											byte cd = 0, cp = 0;
 											for (int i = 0; i < LENGTH; i++) {
 												if (secret.get().indexOf(guess.charAt(i)) > -1) {
 													cd++;
@@ -93,26 +98,21 @@ public class Server implements AutoCloseable {
 													cp++;
 												}
 											}
-											if (cp == 4) {
+											if (cp == LENGTH) {
 												players.keySet().forEach(s -> {
 													try {
-														Transport.send("win:" + players.get(socket), s);
+														Transport.send(win(players.get(socket)), s);
 													} catch (IOException e) {
 													}
 												});
 												secret.set(generateSecret());
 											} else {
-												Transport.send("guess:" + cd + "-" + cp, socket);
+												Transport.send(guess(cd, cp), socket);
 											}
-										} else {
-											Transport.send("deny:", socket);
 										}
 										break;
-									case "logout":
+									case LOGOUT:
 										players.remove(socket);
-										break;
-									default:
-										Transport.send("unknown:" + arguments[0], socket);
 										break;
 									}
 								} catch (Exception e) {

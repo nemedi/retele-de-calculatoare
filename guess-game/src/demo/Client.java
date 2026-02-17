@@ -6,6 +6,12 @@ import java.net.UnknownHostException;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicReference;
 
+import static demo.Message.GUESS;
+import static demo.Message.WIN;
+import static demo.Message.login;
+import static demo.Message.logout;
+import static demo.Message.attempt;
+
 public class Client implements AutoCloseable {
 	
 	private Socket socket;
@@ -23,7 +29,22 @@ public class Client implements AutoCloseable {
 					if (command == null || "exit".equalsIgnoreCase(command)) {
 						break;
 					} else {
-						client.send(command);
+						int index = command.indexOf(':');
+						if (index > 0) {
+							String type = command.substring(0, index).trim();
+							String payload = command.substring(index + 1).trim();
+							switch (type) {
+							case "login":
+								client.send(login(payload));
+								break;
+							case "logout":
+								client.send(logout());
+								break;
+							case "attempt":
+								client.send(attempt(payload));
+								break;
+							}
+						}
 					}
 				}
 			}
@@ -41,25 +62,18 @@ public class Client implements AutoCloseable {
 		new Thread(() -> {
 			while (socket != null && !socket.isClosed()) {
 				try {
-					String data = Transport.receive(socket);
-					String[] arguments = data.split(":");
-					switch (arguments[0]) {
-					case "deny":
-						System.out.println("You must login first. Type 'login:<name>'.");
+					Message message = Transport.receive(socket);
+					switch (message.getType()) {
+					case GUESS:
+						byte cd = message.getPayload(byte[].class)[0]; 
+						byte cp = message.getPayload(byte[].class)[1];
+						System.out.println("Correct digits: " + cd + "; Correct positions: " + cp);
 						break;
-					case "guess":
-						int position = arguments[1].indexOf('-');
-						if (position > 1) {
-							String cd = arguments[1].substring(0, position);
-							String cp = arguments[1].substring(position) + 1;
-							System.out.println("Correct digits: " + cd + "; Correct positions: " + cp);
-						}
-						break;
-					case "win":
-						if (name.get().equals(arguments[1])) {
+					case WIN:
+						if (name.get().equals(message.getPayload(String.class))) {
 							System.out.println("You won the game. Congratulations!");
 						} else {
-							System.out.println("Player '" + arguments[1] + "' won the game.");
+							System.out.println("Player '" + message.getPayload(String.class) + "' won the game.");
 						}
 						break;
 					}
@@ -69,7 +83,7 @@ public class Client implements AutoCloseable {
 		}).start();
 	}
 	
-	public void send(String message) throws IOException {
+	public void send(Message message) throws IOException {
 		Transport.send(message, socket);
 	}
 

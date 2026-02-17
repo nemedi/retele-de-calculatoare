@@ -4,8 +4,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 WORKDIR /var/guess-client
 RUN mkdir -p demo
-COPY src/demo/Client.java demo/Client.java
-COPY src/demo/Transport.java demo/Transport.java
+COPY src/demo/*.java demo/
 RUN javac demo/*.java
 RUN rm -f demo/*.java
 ENV HOST=guess_server
