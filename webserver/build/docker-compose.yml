@@ -1,0 +1,19 @@
+services:
+  webserver:
+    container_name: webserver
+    ports:
+      - "6969:6969"
+    environment:
+      - DEBUG=""
+    volumes:
+      - "../web:/var/local/webserver/web"
+    build:
+      context: ..
+      args:
+        PORT: 6969
+      dockerfile: build/Dockerfile
+    image: webserver:latest
+    hostname: webserver
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
