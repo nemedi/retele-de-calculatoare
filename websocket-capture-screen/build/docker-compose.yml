@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  websocket-capture-screen:
+    container_name: websocket-capture-screen
+    ports:
+      - "6969:6969"
+      - "5901:5901"
+    environment:
+      USER: dockeruser
+      PASSWORD: szervusz
+      PORT: 6969
+    build:
+      context: ..
+      args:
+        PORT: 6969
+      dockerfile: build/Dockerfile
+    image: websocket-capture-screen:latest
+    hostname: websocket_server
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
