@@ -1,0 +1,4 @@
+# Dockerfile.dns_client
+FROM alpine:latest
+RUN apk add --no-cache bind-tools dnsmasq tcpdump mc net-tools
+CMD ["sh", "-c", "sleep infinity"]

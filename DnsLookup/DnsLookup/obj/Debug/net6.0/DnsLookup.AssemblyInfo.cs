@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DnsLookup")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ef27c8404ffeeadacb896466a6c27a01ab87a83")]
 [assembly: System.Reflection.AssemblyProductAttribute("DnsLookup")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DnsLookup")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,31 @@
+services:
+  ftpserver1:
+    container_name: ftpserver1
+    ports:
+      - "6620:20"
+      - "6621:21"
+    volumes:
+      - "../home/server1:/home"
+    build:
+      context: ..
+      dockerfile: build/Dockerfile
+    image: ftpserver:latest
+    hostname: ftpserver
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+  ftpserver2:
+    container_name: ftpserver2
+    ports:
+      - "7720:20"
+      - "7721:21"
+    volumes:
+      - "../home/server2:/home"
+    build:
+      context: ..
+      dockerfile: build/Dockerfile
+    image: ftpserver:latest
+    hostname: ftpserver
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

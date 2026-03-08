@@ -1,0 +1,13 @@
+services:
+  webserver:
+    container_name: shell
+    ports:
+      - "6969:6969"
+    build:
+      context: ..
+      dockerfile: build/Dockerfile
+    image: shell:latest
+    hostname: shell
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

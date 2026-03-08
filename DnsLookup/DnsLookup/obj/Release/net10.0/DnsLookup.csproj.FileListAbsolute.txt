@@ -1,0 +1,15 @@
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\bin\Release\net10.0\DnsLookup.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\bin\Release\net10.0\DnsLookup.deps.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\bin\Release\net10.0\DnsLookup.runtimeconfig.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\bin\Release\net10.0\DnsLookup.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\bin\Release\net10.0\DnsLookup.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\DnsLookup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\DnsLookup.AssemblyInfoInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\DnsLookup.AssemblyInfo.cs
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\DnsLookup.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\DnsLookup.sourcelink.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\DnsLookup.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\refint\DnsLookup.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\DnsLookup.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\DnsLookup.genruntimeconfig.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\DnsLookup\DnsLookup\obj\Release\net10.0\ref\DnsLookup.dll

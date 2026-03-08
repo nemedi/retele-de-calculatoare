@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  dns-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.dns_server
+    container_name: dns-server
+    networks:
+      dnsnet:
+        ipv4_address: 10.10.0.10
+
+  dns-client1:
+    build:
+      context: .
+      dockerfile: Dockerfile.dns_client
+    container_name: dns-client1
+    depends_on:
+      - dns-server
+    networks:
+      dnsnet:
+        ipv4_address: 10.10.0.11
+
+  dns-client2:
+    build:
+      context: .
+      dockerfile: Dockerfile.dns_client
+    container_name: dns-client2
+    depends_on:
+      - dns-server
+    networks:
+      dnsnet:
+        ipv4_address: 10.10.0.12
+
+networks:
+  dnsnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.0.0/24

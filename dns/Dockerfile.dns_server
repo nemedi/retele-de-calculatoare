@@ -1,0 +1,14 @@
+# Dockerfile.dns_server
+FROM alpine:latest
+
+RUN apk add --no-cache bind mc net-tools
+RUN mkdir -p /etc/bind/zones
+RUN mkdir -p /var/cache/bind
+RUN chmod 755 /var/cache/bind
+COPY named.conf /etc/bind/named.conf
+RUN chmod 644 /etc/bind/named.conf
+COPY zones/db.example.com /etc/bind/zones/db.example.com
+EXPOSE 53/udp
+EXPOSE 53/tcp
+CMD ["named", "-g"]
+
