@@ -5,11 +5,24 @@
 	<groupId>demo</groupId>
 	<artifactId>dns-lookup</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<slf4j.version>2.0.17</slf4j.version>
+	</properties>	
 	<dependencies>
 		<dependency>
 			<groupId>dnsjava</groupId>
 			<artifactId>dnsjava</artifactId>
-			<version>3.6.3</version>
+			<version>3.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>${slf4j.version}</version>
 		</dependency>
 	</dependencies>
 </project>
