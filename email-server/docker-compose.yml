@@ -1,12 +1,10 @@
-version: "3"
-
 services:
   mailserver:
     build: .
     container_name: mailserver
     hostname: mail.example.com
     ports:
-      - "25:25"
-      - "143:143"
-      - "110:110"
+      - "125:25"
+      - "1143:143"
+      - "1110:110"
     restart: unless-stopped

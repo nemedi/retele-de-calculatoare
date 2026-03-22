@@ -1,29 +1,34 @@
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y \
+	mc \
+    postfix \
+    dovecot-core \
+    dovecot-imapd \
+    dovecot-pop3d \
+    dovecot-lmtpd \
+    dovecot-mysql \
+    dovecot-sieve \
+    mailutils \
+    && apt-get clean
+RUN mkdir -p /var/mail/vhosts
+RUN mkdir /var/mail/config
+COPY users.txt /var/mail/config/users.txt
+COPY generate-users.sh /var/mail/config/generate-users.sh
+COPY start.sh /var/mail/start.sh
 
-# Install mail server packages
-RUN apt-get update && \
-    apt-get install -y mc postfix dovecot-imapd dovecot-pop3d mailutils && \
-    apt-get clean
+RUN chmod +x /var/mail/config/generate-users.sh
+RUN chmod +x /var/mail/start.sh
 
-# Configure Postfix basic settings
-RUN postconf -e "myhostname=mail.example.com" && \
-    postconf -e "mydomain=example.com" && \
-    postconf -e "myorigin=/etc/mailname" && \
-    postconf -e "inet_interfaces=all" && \
-    postconf -e "inet_protocols=ipv4" && \
-    postconf -e "mydestination=\$myhostname, localhost.\$mydomain, localhost, \$mydomain" && \
-    postconf -e "home_mailbox=Maildir/"
+# Configure postfix
+RUN postconf -e "myhostname=mail.example.com"
+RUN postconf -e "virtual_mailbox_domains=example.com"
+RUN postconf -e "virtual_mailbox_base=/var/mail/vhosts"
+RUN postconf -e "virtual_mailbox_maps=hash:/etc/postfix/vmailbox"
+RUN postconf -e "virtual_minimum_uid=5000"
+RUN postconf -e "virtual_uid_maps=static:5000"
+RUN postconf -e "virtual_gid_maps=static:5000"
 
-# Configure Dovecot to use Maildir
-RUN sed -i 's|#mail_location =.*|mail_location = maildir:~/Maildir|' /etc/dovecot/conf.d/10-mail.conf
+EXPOSE 25 143 110 587 993 995
 
-# Create mail user
-RUN useradd -m mailuser && \
-    echo "mailuser:password" | chpasswd
-
-# Expose SMTP, IMAP, POP3 ports
-EXPOSE 25 143 110
-
-# Start services
-CMD service postfix start && dovecot -F
+CMD ["/var/mail/start.sh"]

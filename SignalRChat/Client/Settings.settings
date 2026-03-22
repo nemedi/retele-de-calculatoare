@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Endpoint" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://localhost:6969/chat</Value>
+      <Value Profile="(Default)">http://localhost:6969/chat</Value>
     </Setting>
   </Settings>
 </SettingsFile>

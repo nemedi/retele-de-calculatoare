@@ -58,11 +58,6 @@ C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\Server.sourcelink.json
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets.build.json
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets.development.json
-C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Server.props
-C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\scopedcss\bundle\Server.styles.css
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\Server.csproj.Up2Date
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\Server.dll
@@ -70,3 +65,12 @@ C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\Server.pdb
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\Server.genruntimeconfig.cache
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\ref\Server.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\bin\Debug\net7.0\Server.staticwebassets.endpoints.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\rpswa.dswa.cache.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\rjimswa.dswa.cache.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\rjsmrazor.dswa.cache.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\rjsmcshtml.dswa.cache.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets.build.json.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\swae.build.ex.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SignalRChat\Server\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt

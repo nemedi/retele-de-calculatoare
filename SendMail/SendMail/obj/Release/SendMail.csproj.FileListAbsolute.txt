@@ -1,0 +1,10 @@
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\bin\Release\SendMail.exe.config
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\bin\Release\SendMail.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\bin\Release\SendMail.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Release\SendMail.csproj.AssemblyReference.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Release\SendMail.MainForm.resources
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Release\SendMail.Properties.Resources.resources
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Release\SendMail.csproj.GenerateResource.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Release\SendMail.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Release\SendMail.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\SendMail\SendMail\obj\Release\SendMail.pdb
