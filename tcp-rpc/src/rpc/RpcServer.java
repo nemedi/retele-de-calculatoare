@@ -52,10 +52,12 @@ public class RpcServer implements AutoCloseable {
 								}
 							}
 						} catch (Exception e) {
+							e.printStackTrace();
 						}
 					}
 				}
 			} catch (Exception e) {
+				e.printStackTrace();
 			}
 		}
 

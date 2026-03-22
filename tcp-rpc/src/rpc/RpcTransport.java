@@ -6,6 +6,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Optional;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -39,6 +40,7 @@ class RpcTransport {
     }
 	
 	private static Gson gson = new GsonBuilder()
+			.registerTypeAdapter(Optional.class, new OptionalTypeAdapter<>())
 			.registerTypeAdapter(RpcRequest.class, new RpcRequestDeserializer())
 			.registerTypeAdapter(RpcResponse.class, new RpcResponseDeserializer())
 			.create();
