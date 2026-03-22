@@ -10,9 +10,9 @@ import common.ITaskManager;
 
 public class TaskManager<T, V> implements ITaskManager<T, V> {
 	
-	public TaskManager(Registry registry, String name)
+	public TaskManager(Registry registry, String name, int port)
 			throws RemoteException, MalformedURLException {
-		registry.rebind(name, UnicastRemoteObject.exportObject(this, 0));
+		registry.rebind(name, UnicastRemoteObject.exportObject(this, port));
 	}
 
 	@Override

@@ -11,8 +11,8 @@ public class Server {
 
 	public static void main(String[] args) {
 		try {
-			Registry registry = RegistryUtility.getRegistry(Settings.PORT);
-			new TaskManager<List<String>, String>(registry, Settings.SERVICE);
+			Registry registry = RegistryUtility.getRegistry(Settings.REGISTRY_PORT);
+			new TaskManager<List<String>, String>(registry, Settings.SERVICE_NAME, Settings.SERVICE_PORT);
 			System.out.println("Server is running, type 'exit' to stop it.");
 			try (Scanner scanner = new Scanner(System.in)) {
 				while (true) {

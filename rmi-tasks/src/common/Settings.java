@@ -4,14 +4,16 @@ import java.util.ResourceBundle;
 
 public class Settings {
 
-	public static final String HOST;
-	public static final int PORT;
-	public static final String SERVICE;
+	public static final String REGISTRY_HOST;
+	public static final int REGISTRY_PORT;
+	public static final int SERVICE_PORT;
+	public static final String SERVICE_NAME;
 	
 	static {
 		ResourceBundle bundle = ResourceBundle.getBundle("settings");
-		HOST = bundle.getString("host");
-		PORT = Integer.parseInt(bundle.getString("port"));
-		SERVICE = bundle.getString("service");
+		REGISTRY_HOST = bundle.getString("registry.host");
+		REGISTRY_PORT = Integer.parseInt(bundle.getString("registry.port"));
+		SERVICE_PORT = Integer.parseInt(bundle.getString("service.port"));
+		SERVICE_NAME = bundle.getString("service.name");
 	}
 }

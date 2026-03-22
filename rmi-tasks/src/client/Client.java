@@ -13,11 +13,9 @@ public class Client {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		try {
-//			String endpoint = String.format("rmi://%s:%d/%s",
-//					Settings.HOST, Settings.PORT, Settings.SERVICE);
-			Registry registry = RegistryUtility.getRegistry(Settings.HOST, Settings.PORT);
+			Registry registry = RegistryUtility.getRegistry(Settings.REGISTRY_HOST, Settings.REGISTRY_PORT);
 			ITaskManager<List<String>, String> taskManager =
-					(ITaskManager<List<String>, String>) registry.lookup(Settings.SERVICE);
+					(ITaskManager<List<String>, String>) registry.lookup(Settings.SERVICE_NAME);
 			Task task = new Task();
 			try (Scanner scanner = new Scanner(System.in)) {
 				while (true) {
