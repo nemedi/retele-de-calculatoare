@@ -1,19 +1,17 @@
 package server;
 
 import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
-import java.util.ResourceBundle;
 import java.util.Scanner;
+
+import common.RegistryUtility;
+import common.Settings;
 
 public class ChatConsole {
 
 	public static void main(String[] args) {
 		try {
-			ResourceBundle bundle = ResourceBundle.getBundle("settings");
-			int port = Integer.parseInt(bundle.getString("port"));
-			String service = bundle.getString("service");
-			new ChatService(getRegistry(port), service);
+			new ChatService(RegistryUtility.getRegistry(Settings.SERVER_REGISTRY_PORT),
+					Settings.SERVER_SERVICE_NAME, Settings.SERVER_SERVICE_PORT);
 			System.out.println("Server is runnig, type 'exit' to close it.");
 			try (Scanner scanner = new Scanner(System.in)) {
 				while (true) {
@@ -30,12 +28,4 @@ public class ChatConsole {
 		}
 	}
 	
-	private static Registry getRegistry(int port) throws RemoteException {
-		try {
-			return LocateRegistry.createRegistry(port);
-		} catch (RemoteException e) {
-			return LocateRegistry.getRegistry(port);
-		}
-	}
-
 }

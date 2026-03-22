@@ -1,36 +1,27 @@
 package client;
 
 import java.net.MalformedURLException;
-import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.ResourceBundle;
 
 import common.IChat;
 import common.IChatCallback;
+import common.RegistryUtility;
+import common.Settings;
 
-public class ChatCallbackService extends UnicastRemoteObject implements IChatCallback {
+public class ChatCallbackService implements IChatCallback {
 
-	private static final long serialVersionUID = 1L;
 	private IChat stub;
 	private IChatCallback callback;
 
-	public ChatCallbackService(String host, int port, IChatCallback callback)
+	public ChatCallbackService(IChatCallback callback)
 			throws RemoteException, MalformedURLException, NotBoundException {
-		int localPort = Integer.parseInt(ResourceBundle.getBundle("settings").getString("port"));
-		Registry registry = null;
-		try {
-			registry = LocateRegistry.createRegistry(localPort);
-		} catch (RemoteException e) {
-			registry = LocateRegistry.getRegistry(localPort);
-		}
-		if (registry != null) {
-			registry.rebind("chatCallback", this);
-		}
-		this.stub = (IChat) Naming.lookup(String.format("rmi://%s:%d/chat", host, port));
+		RegistryUtility.getRegistry(Settings.CLIENT_REGISTRY_PORT)
+			.rebind(Settings.CLIENT_SERVICE_NAME,
+					UnicastRemoteObject.exportObject(this, Settings.CLIENT_SERVICE_PORT));
+		this.stub = (IChat) RegistryUtility.getRegistry(Settings.SERVER_REGISTRY_HOST, Settings.SERVER_REGISTRY_PORT)
+				.lookup(Settings.SERVER_SERVICE_NAME);
 		this.callback = callback;
 	}
 

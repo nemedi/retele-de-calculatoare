@@ -24,3 +24,4 @@ C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.c
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.csproj.Up2Date
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.exe
 C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\WcfChat\Client\obj\Debug\Client.Form1.resources

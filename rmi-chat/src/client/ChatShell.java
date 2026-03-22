@@ -3,26 +3,25 @@ package client;
 import java.net.MalformedURLException;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
-import java.util.ResourceBundle;
 
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.widgets.Shell;
-
-import common.IChatCallback;
-import org.eclipse.swt.layout.GridLayout;
-import org.eclipse.swt.widgets.Label;
-import org.eclipse.swt.widgets.Text;
-import org.eclipse.swt.layout.GridData;
-import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.custom.SashForm;
-import org.eclipse.swt.widgets.List;
+import org.eclipse.swt.events.KeyAdapter;
+import org.eclipse.swt.events.KeyEvent;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.events.ShellAdapter;
 import org.eclipse.swt.events.ShellEvent;
-import org.eclipse.swt.events.KeyAdapter;
-import org.eclipse.swt.events.KeyEvent;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.List;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Text;
+
+import common.IChatCallback;
 
 public class ChatShell extends Shell implements IChatCallback {
 	private Text txtName;
@@ -128,13 +127,8 @@ public class ChatShell extends Shell implements IChatCallback {
 			}
 		});
 		txtMessage.setLayoutData(new GridData(SWT.FILL, SWT.TOP, true, false, 2, 1));
-
-
 		createContents();
-		ResourceBundle bundle = ResourceBundle.getBundle("settings");
-		String host = bundle.getString("host");
-		int port = Integer.parseInt(bundle.getString("port"));
-		this.client = new ChatCallbackService(host, port, this);
+		this.client = new ChatCallbackService(this);
 		new Label(this, SWT.NONE);
 	}
 

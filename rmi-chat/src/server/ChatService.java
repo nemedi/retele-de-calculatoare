@@ -16,8 +16,8 @@ public class ChatService implements IChat {
 
 	private Map<String, IChatCallback> users = new HashMap<String, IChatCallback>();
 
-	public ChatService(Registry registry, String name) throws RemoteException {
-		registry.rebind(name, UnicastRemoteObject.exportObject(this, 0));
+	public ChatService(Registry registry, String name, int port) throws RemoteException {
+		registry.rebind(name, UnicastRemoteObject.exportObject(this, port));
 	}
 
 	@Override
