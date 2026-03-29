@@ -42,7 +42,7 @@ namespace Client
             this.form = form;
             ToggleLoginCommand = new Command(OnToggleLogin);
             SendMessageCommand = new Command(OnSendMessage);
-            proxy = proxy = new ChatProxy(this);
+            proxy = new ChatProxy(this);
             this.form = form;
         }
 

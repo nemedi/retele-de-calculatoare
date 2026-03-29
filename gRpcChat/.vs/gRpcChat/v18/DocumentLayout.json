@@ -1,0 +1,250 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3266338F-DB47-4AE2-B0A0-3BC7B10447F4}|Solution Items{3266338F-DB47-4AE2-B0A0-3BC7B10447F4}|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Chat.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3266338F-DB47-4AE2-B0A0-3BC7B10447F4}|Solution Items{3266338F-DB47-4AE2-B0A0-3BC7B10447F4}|solutionrelative:Chat.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\server\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|solutionrelative:server\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|solutionrelative:client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|solutionrelative:client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|solutionrelative:client\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\client\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|solutionrelative:client\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\client\\chat.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|solutionrelative:client\\chat.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\client\\client.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8DF212A5-6FFF-432E-A719-5B8405A545DC}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\grpcchat\\server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{619CB2C9-4C12-470D-BFAD-D9745572C018}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Server",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
+              "RelativeDocumentMoniker": "Server\\Server.csproj",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
+              "RelativeToolTip": "Server\\Server.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-23T06:53:13.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\ChatService.cs",
+              "RelativeDocumentMoniker": "Server\\ChatService.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\ChatService.cs",
+              "RelativeToolTip": "Server\\ChatService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:52:46.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-22T23:06:14.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\MainForm.cs",
+              "RelativeDocumentMoniker": "Client\\MainForm.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\MainForm.cs",
+              "RelativeToolTip": "Client\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:04:32.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\MainForm.cs",
+              "RelativeDocumentMoniker": "Client\\MainForm.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\MainForm.cs [Design]",
+              "RelativeToolTip": "Client\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:04:25.29Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\Command.cs",
+              "RelativeDocumentMoniker": "Client\\Command.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\Command.cs",
+              "RelativeToolTip": "Client\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T23:04:23.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "chat.proto",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\chat.proto",
+              "RelativeDocumentMoniker": "Client\\chat.proto",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\chat.proto",
+              "RelativeToolTip": "Client\\chat.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-03-22T23:04:06.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAABCwAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-22T22:59:09.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\App.config",
+              "RelativeDocumentMoniker": "Client\\App.config",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\App.config",
+              "RelativeToolTip": "Client\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-22T22:53:10.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\Settings.settings",
+              "RelativeDocumentMoniker": "Client\\Settings.settings",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\Settings.settings",
+              "RelativeToolTip": "Client\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-03-22T22:53:02.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chat.proto",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Chat.proto",
+              "RelativeDocumentMoniker": "Chat.proto",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Chat.proto",
+              "RelativeToolTip": "Chat.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-03-22T22:52:45.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Client",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\Client.csproj",
+              "RelativeDocumentMoniker": "Client\\Client.csproj",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Client\\Client.csproj",
+              "RelativeToolTip": "Client\\Client.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-22T22:52:33.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Server",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
+              "RelativeDocumentMoniker": "Server\\Server.csproj",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Server.csproj",
+              "RelativeToolTip": "Server\\Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-22T22:52:19.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\gRpcChat\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T22:52:06.669Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

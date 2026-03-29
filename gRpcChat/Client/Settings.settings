@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Endpoint" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://localhost:6969</Value>
+      <Value Profile="(Default)">http://localhost:6969</Value>
     </Setting>
   </Settings>
 </SettingsFile>

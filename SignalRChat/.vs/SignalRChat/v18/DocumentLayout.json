@@ -3,35 +3,47 @@
   "WorkspaceRootPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\chat.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\chat.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\messagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\messagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\server\\messagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B594A174-ABF9-4D7B-BC85-5B9592A673F6}|Server\\Server.csproj|solutionrelative:server\\messagetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\signalrchat\\client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{2956C4E0-A468-4A90-B110-E19C79E98F50}|Client\\Client.csproj|solutionrelative:client\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     }
   ],
@@ -47,6 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Client",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Client.csproj",
+              "RelativeDocumentMoniker": "Client\\Client.csproj",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Client.csproj",
+              "RelativeToolTip": "Client\\Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-29T20:21:49.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MainController.cs",
+              "RelativeDocumentMoniker": "Client\\MainController.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\MainController.cs",
+              "RelativeToolTip": "Client\\MainController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:20:00.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "chat.proto",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\chat.proto",
+              "RelativeDocumentMoniker": "Client\\chat.proto",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\chat.proto",
+              "RelativeToolTip": "Client\\chat.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-03-29T20:19:06.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\App.config",
               "RelativeDocumentMoniker": "Client\\App.config",
@@ -59,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
@@ -72,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\appsettings.json",
               "RelativeDocumentMoniker": "Server\\appsettings.json",
@@ -80,12 +131,11 @@
               "RelativeToolTip": "Server\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-22T19:16:57.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T19:16:57.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MessageTypes.cs",
               "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\MessageTypes.cs",
               "RelativeDocumentMoniker": "Server\\MessageTypes.cs",
@@ -93,18 +143,17 @@
               "RelativeToolTip": "Server\\MessageTypes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T18:13:31.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T18:13:31.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T18:13:32.462Z",
               "EditorCaption": ""
@@ -115,16 +164,16 @@
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\ChatHub.cs",
               "RelativeDocumentMoniker": "Server\\ChatHub.cs",
-              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\ChatHub.cs",
-              "RelativeToolTip": "Server\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Server\\ChatHub.cs*",
+              "RelativeToolTip": "Server\\ChatHub.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvxEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T18:12:55.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ObservableObject.cs",
               "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\ObservableObject.cs",
               "RelativeDocumentMoniker": "Client\\ObservableObject.cs",
@@ -132,20 +181,18 @@
               "RelativeToolTip": "Client\\ObservableObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T18:12:27.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T18:12:27.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Settings.settings",
               "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Settings.settings",
               "RelativeDocumentMoniker": "Client\\Settings.settings",
               "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\SignalRChat\\Client\\Settings.settings",
               "RelativeToolTip": "Client\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2026-03-22T18:11:20.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T18:11:20.063Z"
             }
           ]
         }

@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5261473-5614-4561-BB2B-561C7E375CCA}|Client\\Client.csproj|c:\\work\\projects\\ase\\rc\\retele-de-calculatoare\\stockmanagement\\client\\proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5261473-5614-4561-BB2B-561C7E375CCA}|Client\\Client.csproj|solutionrelative:client\\proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Proxy.cs",
+              "DocumentMoniker": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Client\\Proxy.cs",
+              "RelativeDocumentMoniker": "Client\\Proxy.cs",
+              "ToolTip": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\StockManagement\\Client\\Proxy.cs",
+              "RelativeToolTip": "Client\\Proxy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:51:50.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
