@@ -1,6 +1,5 @@
 .settings/
 bin/
-target/
 *.class
 *.war
 *.nar
