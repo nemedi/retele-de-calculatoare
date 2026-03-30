@@ -1,4 +1,4 @@
-package server;
+package client;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,14 +28,14 @@ public class Client implements CallbackContract {
 				this);
 	}
 	
-	public void process(String command) {
+	public void process(String command) throws IOException {
 		if (command.startsWith("login")) {
 			String name = command.substring("login".length()).trim();
 			this.root = Paths.get(RUNTIME, name).toFile();
 			List<String> files = Arrays.stream(root.listFiles(file -> file.isFile()))
 					.map(file -> file.getName())
 					.collect(Collectors.toList());
-			proxy.login(name, files.toArray(new String[files.size()]));
+			proxy.login(name, files);
 		} else if ("logout".equals(command)) {
 			proxy.logout();
 		} else if ("list".equals(command)) {
@@ -92,12 +92,11 @@ public class Client implements CallbackContract {
 	}
 
 	@Override
-	public void onGetFilesByUser(Map<String, String[]> filesByUser) {
-		for (Entry<String, String[]> entry : filesByUser.entrySet()) {
+	public void onGetFilesByUser(Map<String, List<String>> filesByUser) {
+		for (Entry<String, List<String>> entry : filesByUser.entrySet()) {
 			System.out.println("User: " + entry.getKey());
 			System.out.println("Files:");
-			String[] files = entry.getValue();
-			for (String file : files) {
+			for (String file : entry.getValue()) {
 				System.out.println("   " + file);
 			}
 			System.out.println();
@@ -105,15 +104,15 @@ public class Client implements CallbackContract {
 	}
 
 	@Override
-	public void onReadFile(String name) throws IOException {
-		byte[] content = Files.readAllBytes(Paths.get(RUNTIME, name));
-		proxy.onReadFile(name, content);
+	public void onReadFile(String user, String file) throws IOException {
+		byte[] content = Files.readAllBytes(Paths.get(root.getAbsolutePath(), file));
+		proxy.onReadFile(user, file, new String(content));
 	}
 
 	@Override
-	public void onWriteFile(String name, byte[] content) throws IOException {
-		Files.write(Paths.get(root.getAbsolutePath(), name), content);
-		System.out.println(String.format("File was saved to '%s'.", name));
+	public void onWriteFile(String file, String content) throws IOException {
+		Files.write(Paths.get(root.getAbsolutePath(), file), content.getBytes());
+		System.out.println(String.format("File was saved to '%s'.", file));
 	}
 
 }

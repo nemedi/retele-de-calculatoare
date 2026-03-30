@@ -1,11 +1,13 @@
 package server;
 
+import java.util.List;
+
 public class User {
 
 	private String name;
-	private String[] files;
+	private List<String> files;
 	
-	public User(String name, String[] files) {
+	public User(String name, List<String> files) {
 		this.name = name;
 		this.files = files;
 	}
@@ -14,7 +16,7 @@ public class User {
 		return name;
 	}
 	
-	public String[] getFiles() {
+	public List<String> getFiles() {
 		return files;
 	}
 }
