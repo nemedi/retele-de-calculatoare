@@ -1,0 +1,3 @@
+/home/iulian/Projects/ASE/RC/LinuxFirewall/native/build/CMakeFiles/nfq_bridge.dir
+/home/iulian/Projects/ASE/RC/LinuxFirewall/native/build/CMakeFiles/edit_cache.dir
+/home/iulian/Projects/ASE/RC/LinuxFirewall/native/build/CMakeFiles/rebuild_cache.dir

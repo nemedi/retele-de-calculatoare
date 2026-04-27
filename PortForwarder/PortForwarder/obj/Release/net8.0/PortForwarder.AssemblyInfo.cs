@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortForwarder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a9114fab0f6ff13f015725baf8bc1c549f90579")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortForwarder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortForwarder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

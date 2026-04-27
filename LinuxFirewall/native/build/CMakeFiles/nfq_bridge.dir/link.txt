@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libnfq_bridge.so -o libnfq_bridge.so CMakeFiles/nfq_bridge.dir/nfq_bridge.c.o  -lnetfilter_queue 

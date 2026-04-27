@@ -1,0 +1,15 @@
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\bin\Release\net8.0\ArpResolver.exe
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\bin\Release\net8.0\ArpResolver.deps.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\bin\Release\net8.0\ArpResolver.runtimeconfig.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\bin\Release\net8.0\ArpResolver.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\bin\Release\net8.0\ArpResolver.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ArpResolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ArpResolver.AssemblyInfoInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ArpResolver.AssemblyInfo.cs
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ArpResolver.csproj.CoreCompileInputs.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ArpResolver.sourcelink.json
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ArpResolver.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\refint\ArpResolver.dll
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ArpResolver.pdb
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ArpResolver.genruntimeconfig.cache
+C:\Work\Projects\ASE\RC\retele-de-calculatoare\ArpResolver\obj\Release\net8.0\ref\ArpResolver.dll

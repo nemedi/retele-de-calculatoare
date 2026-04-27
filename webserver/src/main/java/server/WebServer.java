@@ -11,9 +11,9 @@ public class WebServer implements AutoCloseable {
 	
 	private HttpServer server;
 
-	public void open(int port) throws IOException {
+	public void open(InetAddress ip, int port) throws IOException {
 		InetSocketAddress address =
-			new InetSocketAddress(InetAddress.getLocalHost(), port);
+			new InetSocketAddress(ip, port);
 		server = HttpServer.create(address, 0);
 		server.createContext("/", new WebHandler());
 		server.setExecutor(Executors.newCachedThreadPool());

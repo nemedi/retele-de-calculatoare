@@ -1,0 +1,14 @@
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/bin/Debug/net8.0/Firewall
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/bin/Debug/net8.0/Firewall.deps.json
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/bin/Debug/net8.0/Firewall.runtimeconfig.json
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/bin/Debug/net8.0/Firewall.dll
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/bin/Debug/net8.0/Firewall.pdb
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/Firewall.GeneratedMSBuildEditorConfig.editorconfig
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/Firewall.AssemblyInfoInputs.cache
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/Firewall.AssemblyInfo.cs
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/Firewall.csproj.CoreCompileInputs.cache
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/Firewall.dll
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/refint/Firewall.dll
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/Firewall.pdb
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/Firewall.genruntimeconfig.cache
+/home/iulian/Projects/ASE/RC/LinuxFirewall/managed/obj/Debug/net8.0/ref/Firewall.dll

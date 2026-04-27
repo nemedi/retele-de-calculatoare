@@ -1,17 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "IPTeVp9aKSsJ/ceA+eGlrzoimSMG6kIeVPgsE9nQkpH9DmEz4cvjGFaG2SFVt5/ZHFPo2VXt+tPlPYMTuGwv1Q==",
+  "dgSpecHash": "uxGqxz67Sxs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\iilie\\source\\repos\\PortForwarder\\PortForwarder\\PortForwarder.csproj",
+  "projectFilePath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\PortForwarder\\PortForwarder\\PortForwarder.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\iilie\\.nuget\\packages\\open.nat\\2.1.0\\open.nat.2.1.0.nupkg.sha512"
+    "C:\\Users\\iilie\\.nuget\\packages\\open.nat\\2.1.0\\open.nat.2.1.0.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\iilie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Open.NAT 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\PortForwarder\\PortForwarder\\PortForwarder.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Work\\Projects\\ASE\\RC\\retele-de-calculatoare\\PortForwarder\\PortForwarder\\PortForwarder.csproj",
       "libraryId": "Open.NAT",
       "targetGraphs": [
         "net8.0"
