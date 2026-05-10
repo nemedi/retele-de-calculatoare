@@ -1,0 +1,81 @@
+version: '3.9'
+
+services:
+
+  loadbalancer:
+    image: haproxy:2.9
+    container_name: loadbalancer
+    hostname: loadbalancer
+    ports:
+      - "8080:8080"
+    environment:
+      ENDPOINTS: "http://node1:8080/transformer,http://node2:8080/transformer,http://node3:8080/transformer,http://node4:8080/transformer"
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    depends_on:
+      - node1
+      - node2
+      - node3
+      - node4
+    networks:
+      - transformer-net
+
+  node1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: xslt-transformer:latest
+    container_name: node1
+    hostname: node1
+    environment:
+      ENDPOINT: "http://node1:8080/transformer"
+    expose:
+      - "8080"
+    networks:
+      - transformer-net
+
+  node2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: xslt-transformer:latest
+    container_name: node2
+    hostname: node2
+    environment:
+      ENDPOINT: "http://node2:8080/transformer"
+    expose:
+      - "8080"
+    networks:
+      - transformer-net
+
+  node3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: xslt-transformer:latest
+    container_name: node3
+    hostname: node3
+    environment:
+      ENDPOINT: "http://node3:8080/transformer"
+    expose:
+      - "8080"
+    networks:
+      - transformer-net
+
+  node4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: xslt-transformer:latest
+    container_name: node4
+    hostname: node4
+    environment:
+      ENDPOINT: "http://node4:8080/transformer"
+    expose:
+      - "8080"
+    networks:
+      - transformer-net
+
+networks:
+  transformer-net:
+    driver: bridge
