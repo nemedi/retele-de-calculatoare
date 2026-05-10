@@ -6,6 +6,6 @@
     "start": "functions-framework --target=getPrimeNumbers"
   },
   "dependencies": {
-    "@google-cloud/functions-framework": "^4.0.0"
+    "@google-cloud/functions-framework": "^5.0.2"
   }
 }

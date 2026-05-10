@@ -6,11 +6,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "body-parser": "^2.2.0",
+    "express": "^5.2.1",
     "lambda-local": "^2.2.0"
   },
   "devDependencies": {
-    "aws-sdk": "^2.1692.0"
+    "aws-sdk": "^2.1693.0"
   }
 }

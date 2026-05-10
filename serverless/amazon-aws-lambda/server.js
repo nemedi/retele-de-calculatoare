@@ -1,8 +1,7 @@
 const express = require("express");
-const bodyParser = require("body-parser");
 const getPrimeNumbers = require("./getPrimeNumbers");
 const application = express();
-application.use(bodyParser.json());
+application.use(express.json());
 application.get("/getPrimeNumbers", async (request, response) => {
   try {
     const event = {
@@ -20,7 +19,7 @@ application.get("/getPrimeNumbers", async (request, response) => {
     response.status(500).send("Internal Server Error");
   }
 });
-const PORT = 3000;
+const PORT = 8080;
 application.listen(PORT, () => {
   console.log(`🚀 HTTP server running on http://localhost:${PORT}/getPrimeNumbers`);
 });
